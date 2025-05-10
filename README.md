@@ -36,7 +36,7 @@ python app.py
 ```
 ## 模型评估分数
 
-[img.png](img.png)
+![img.png](img.png)
 
 
 
