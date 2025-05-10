@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>法海</title>
+    <link rel="icon" type="image/png" href="/static/buddhist-monk.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <img src="/static/buddhist-monk.png" class="logo" alt="法律顾问">
+            <h1>法海 智能法律顾问</h1>
+        </header>
+
+        <div class="chat-container">
+            <!-- 聊天消息容器 -->
+            <div class="chat-history" id="chat-box">
+                <!-- 欢迎消息 -->
+                <div class="welcome-message">
+                    <div class="welcome-header">您好！我是法海</div>
+                    <div class="welcome-tips">
+                        您可以咨询包含但不限于以下类型问题：
+                        <div>--- 劳动合同纠纷</div>
+                        <div>--- 婚姻家庭法相关</div>
+                        <div>--- 民间借贷问题</div>
+                    </div>
+                </div>
+                <div id="message-container"></div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-box">
+                    <textarea id="user-input"
+                              placeholder="请输入法律问题或点击麦克风说话..."
+                              rows="3"></textarea>
+                    <div class="input-buttons">
+                        <button id="voice-btn" class="voice-btn">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                        <button id="send-btn" class="send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    提示：本建议仅供参考，具体法律问题请咨询专业律师
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
