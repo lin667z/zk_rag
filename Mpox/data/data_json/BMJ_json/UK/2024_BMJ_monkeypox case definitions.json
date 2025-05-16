@@ -1,0 +1,33 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "",
+                "page_content": "This  guidance is for healthcare professionals on when to suspect mpox, the disease caused by any clade of the virus called  MPXV , and how to decide if a suspected case needs to be managed as a  High Consequence Infectious Disease ( HCID ) . Clade II mpox has been circulating in the UK and globally since 2022 predominantly in gay, bisexual or other men who have sex with men, but remains uncommon. It is no longer classified as an  HCID . Clade I mpox is currently classified as an  HCID . It includes clade Ia, present in central Africa, and clade Ib, currently causing an outbreak in multiple countries (see the  affected country list ). Consider the possibility of mpox when patients with exposure risk and which fit the clinical description in the section on  When to suspect mpox . When assessing patients for mpox, always consider the possibility of  HCID  and take a travel history. If the patient fits the  HCID  case definition , they should be  managed as potential  HCID  and discussed with local infection team, who may refer to the  Imported Fever Service ."
+            },
+            {
+                "metadata": "When to suspect mpox",
+                "page_content": "Consider mpox where a case presents with: 1. a prodrome (fever, chills, headache, exhaustion, myalgia, arthralgia, backache, lymphadenopathy), and where there is known prior contact with a confirmed or suspected case of mpox in the 21 days before symptom onset Or: 2. an mpox-compatible rash anywhere on the skin (face, limbs, extremities, torso), mucosae (including oral, genital, anal), or symptoms of proctitis, and at least one of the following in the 21 days before symptom onset: \\n   recent new sexual partner \\n   contact with known or suspected case of mpox \\n   a travel history to a  country where mpox is currently common \\n \\n   link to an infected animal or meat \\n If the rash is highly clinically suggestive of mpox, but you cannot identify a risk factor, discuss with local infection services whether to consider mpox testing alongside the more common differential diagnosis. Consider common infections such as chickenpox or shingles, herpes simplex virus, and enterovirus in the differential diagnosis; these circulate widely and are more common than mpox; exclude as appropriate."
+            },
+            {
+                "metadata": "When to consider clade I mpox, a high consequence infectious disease (HCID operational case definition)",
+                "page_content": "In a person with clinically suspected mpox, they should be managed as  HCID  if they meet one or more of the following criteria: \\n   has a travel history to specified countries where there may be a risk of clade I exposure in the 21 days before symptom onset (see  affected country list ) \\n   has an epidemiological link to a confirmed or suspected case of clade I mpox in the 21 days before symptom onset \\n   has a relevant zoonotic link, including contact with a wild or captive mammal that is an African native species (this includes contact with derived products, for example, game meat)"
+            },
+            {
+                "metadata": "Actions for a suspected case of mpox",
+                "page_content": "Patients identified as suspected mpox cases should be managed as per the NHS guidance on  Infection prevention and control measures for clinically suspected and confirmed cases of mpox in healthcare settings . All suspected cases undergoing testing should be  notified  to the  local health protection team  by the clinician. The managing clinician should contact their relevant local infection team (infectious diseases, microbiology, or virology). The local infection team should then discuss with the  IFS  (0844 778 8990) who will review risk assessment and advise on the next steps for investigation and  management  including the need for admission. If a decision is made to test,  information on diagnostic testing for mpox  is available. The managing clinician should contact the  local health protection team . Test for  MPXV , the causative agent of mpox (using designated testing pathway). See also  Mpox diagnostic testing guidance . Undertake tests to rule out alternative diagnoses if clinically appropriate and if not done already. If patient requires admission for clinical reasons,  IPC  measures should be undertaken as per the  NHS guidance on  IPC  measures for clinically suspected and confirmed cases of mpox in healthcare settings  and the  national  IPC  manual .If patient does not require admission for clinical reasons: advise self-isolation at home (based on assessment by the clinician and  following  UKHSA  guidance ). If the patient cannot self-isolate at home, the patient should be admitted pending test result, with  IPC  measures undertaken as per the  NHS guidance on  IPC  measures for clinically suspected and confirmed cases of mpox in healthcare settings  and the  national  IPC  manual ."
+            },
+            {
+                "metadata": "Case definitions once test results are available",
+                "page_content": "A highly probable case is defined as a person with an orthopox virus  PCR  positive result where mpox remains the most likely diagnosis. A confirmed case is defined as a person with a laboratory-confirmed mpox infection ( MPXV   PCR  positive)."
+            },
+            {
+                "metadata": "Further information",
+                "page_content":"Additional  mpox resources  are available on GOV.UK, including guidance on  vaccination  and  contact tracing ."
+            }
+        ]
+    },
+    "time": "2024_10_31",
+    "source": "BMJ:monkeypox-case-definitions",
+    "link": "https://www.gov.uk/guidance/monkeypox-case-definitions"
+}

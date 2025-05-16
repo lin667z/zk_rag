@@ -1,0 +1,21 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "Initial assessment",
+                "page_content": "Initial assessment of patient to determine whether they are clinically stable or require immediate intervention, in community/outpatient settings (e.g. WIC and community pharmacies)\n\nPatients should be isolated/socially distanced and a virtual assessment should take place (e.g. by phone)\nStaff should not physically assess the patient without personal protective equipment (PPE).\nActions if clinically well\nAssessment indicates patient is clinically stable and can remain at home (or return home via their own transport) whilst maintaining isolation.\nPatient should be advised to return home, maintain isolation and contact 111.\n111 pathway implemented.\nActions if clinically unwell\nAssessment indicates patient is clinically unwell and should be transported by ambulance, or is unable to self-transfer whilst maintaining isolation.\nAdvise the patient to dial 999 if urgent, or contact regional ambulance service to arrange transfer, clearly stating the patient is a suspected Mpox case.\nEmergency Department Pathway implemented."            },
+            {
+                "metadata": "Pathway checklist",
+                "page_content": "Community based Clade I mpox pathway checklist – probable or possible cases:\n\nWhere possible isolate/socially distance from the patient\nHave you assessed the patient’s ability to self-transfer (maintaining self-isolation)?\nSeek advice from local infection prevention and control as required (e.g. cleaning requirements)."            },
+            {
+                "metadata": "Links and guidance",
+                "page_content": "Mpox: guidance on when to suspect a case of mpox\nClade 1 mpox – affected countries list\nNational infection prevention and control manual (NIPCM)\nAddendum on high consequence infectious disease (HCID) PPE"            },
+            {
+                "metadata": "Preparedness actions",
+                "page_content": "Providers to ensure that all clinical services are aware of the public health messaging and that a differential diagnosis of Mpox should be considered in any patient that meets the operational case definition.\nProviders should review current IPC plans, PPE availability, waste management and staff training to ensure that arrangements are in place to safely assess and treat patients presenting with suspected Mpox.\nProviders should review existing plans and clinical pathways ensuring that staff are aware of the arrangements for isolation, clinical management, specialist infection advice,  PPE and associated infection control measures.\nDate published: 5 September, 2024\nDate last updated: 25 October, 2024"            }
+        ]
+    },
+    "time": "2024_10_25",
+    "source": "BMJ:clade-i-mpox-mpxv-pathway-actions-patients-who-contact-services-or-present-at-a-community-setting",
+    "link": "https://www.england.nhs.uk/long-read/clade-i-mpox-mpxv-pathway-actions-patients-who-contact-services-or-present-at-a-community-setting"
+}

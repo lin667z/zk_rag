@@ -1,0 +1,25 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "Background",
+                "page_content": "A high consequence infectious disease (HCID) is defined as: \n  an acute infectious disease\n  typically having a high case-fatality rate\n  not always having effective prophylaxis or treatment\n  often difficult to recognise and detect rapidly\n  able to spread in the community and within healthcare settings\n  requiring an enhanced individual, population and system response to ensure it is managed effectively, efficiently and safely\n HCID status is conferred by the UK 4 nations public health agencies, with advisory committee input as required. It is used to determine the appropriate clinical and public health response pathways. It has no standing in law. It does not of itself affect the classification of the pathogen in terms of hazard group, the management of waste or transport requirement."
+            },
+            {
+                "metadata": "Reviews in relation to mpox",
+                "page_content": "June 2022 The Advisory Committee on Dangerous Pathogens (ACDP) recommended that the strain of the virus that causes mpox, MPXV, currently in community transmission within the UK (clade IIb, B.1 lineage) should no longer be classified as an HCID. January 2023 The ACDP recommended that all of clade II MPXV (formerly West African clade) should no longer be classified as an HCID. ACDP recommended that clade I (formerly known as Central African or Congo basin clade) should remain an HCID. The 4 nations public health agencies have reviewed this advice and agreed with the view of ACDP."
+            },
+            {
+                "metadata": "Different types of ",
+                "page_content": "MPXV is currently divided into 2 main genetic groups (clades I and II), which subdivide into multiple lineages. Clade I Originally known as the ‘Central African’ or ‘Congo Basin’ clade, this is more likely to cause severe mpox disease. This clade has not been implicated in the outbreak that started in 2022. However, in 2024 clade I mpox cases have been reported in countries beyond the Central African Region in which it has previously been known to circulate. Clade II This was formerly known as the ‘West African’ clade and appears to cause less severe mpox disease in humans than clade I. Clade II has been further subdivided into clades IIa and IIb. Clade IIa Isolates from this clade have previously been reported in West Africa. No cases from this clade have been seen in the 2022 outbreak. Clade IIb Clade IIb is the group of variants largely circulating in the global outbreak that started in mid 2022. There are several lineages of clade IIb that are genetically distinct. The B.1 lineage is the main outbreak strain currently in circulation in the UK – all UK-acquired mpox cases genetically sequenced so far are part of this lineage. A small number of clade IIb, non-B.1 lineage travel-associated cases have also been identified. Further information on the genomic epidemiology of MPXV is available."
+            },
+            {
+                "metadata": "MPXV",
+                "page_content": "\nHCID network Most patients with non-HCID mpox who have mild symptoms and  who are able to self-isolate will be managed as outpatients with follow-up via a virtual ward or similar, by local sexual health or infection services. However, the NHS in all 4 nations will continue to draw on the expertise of HCID units in the assessment and management of cases requiring admission to hospital. This reflects the potential for severe disease due to any clade in vulnerable groups. In addition, there may be specific infection control risks in patients with extensive disease where input from the HCID network may be helpful. Waste, transport and laboratory requirements There is no change to waste, transport or laboratory regulatory requirements as a result of the HCID derogation. By international agreement, samples and waste from all mpox cases are classified as Category B for transport and waste management. Laboratory cultures of MPXV remain classified as Category A. Personal protective equipment (PPE) There is no automatic change to personal protective equipment (PPE). PPE recommendations for clade II mpox are outlined in the 4 nations principles document and relevant national infection prevention and control (IPC) guidance. Recommendations for clade I mpox are outlined in the NHS guidance on IPC measures for clinically suspected and confirmed cases of mpox in healthcare settings and relevant national IPC guidance. There is no automatic change to the public health response. The decisions on stringency of approach remain with the incident management team (IMT) and will be decided on the basis of the public health risk assessment."
+            }
+        ]
+    },
+    "time": "2024_10_31",
+    "source": "BMJ:HCID status of mpox",
+    "link": "https://www.gov.uk/guidance/hcid-status-of-monkeypox"
+}

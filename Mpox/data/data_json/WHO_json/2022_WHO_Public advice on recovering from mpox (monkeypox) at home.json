@@ -1,0 +1,25 @@
+{
+    "content":
+    {
+        "Document":
+        [
+            {
+                "metadata":"Public Advice I Updated: 2 September 2022",
+                "page_content": "If you think you might have mpox, self-isolate and contact a health worker immediately. If they advise that you isolate at home, keep in touch with them and seek immediate advice if your rash becomes more painful, shows signs of being infected (such as fever, redness or pus), if your fever, nausea or vomiting get worse, if you are unable to eat or drink, have difficulty breathing or if you feel dizzy or confused."
+            },
+            {
+                "metadata": "Taking care of your rash",
+                "page_content": "Don't scratch\nClean your hands before and after touching lesions\nKeep your rash dry and uncovered\nKeep your rash clean with sterilized with water/antiseptic\nRinse lesions in your mouth with salt water\nTake warm baths with baking soda/Epsom salts\nUse paracetamol to manage the discomfort of lesions"
+            },
+            {
+                "metadata": "Taking care of your mental health",
+                "page_content": "Keep hydrated\nEat well\nGet enough sleep\nUse medication for pain and fever if needed\nDo things you find relaxing/enjoyable\nStay connected\nExercise if you feel well enough and can do so while isolating \nAsk for support if needed"
+            }
+
+        ]
+    },
+    "time": "2022_9_2",
+    "source": "WHO:Public advice on recovering from mpox (monkeypox) at home ",
+    "link": "https://www.who.int/news-room/public-advice/recovering-from-monkeypox-at-home"
+
+}

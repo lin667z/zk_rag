@@ -1,0 +1,21 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "Is there a high index of suspicion that this patient is a suspected mpox case?",
+                "page_content": "If yes, does the patient have clinical signs and symptoms of being a suspected case?\nA prodrome where there is known prior contact with a confirmed or suspected mpox case in the last 21 days before symptom onset, or\nAn mpox compatible rash anywhere on the skin, mucosae or symptoms of proctitis and at least one of the following in the 21 days before symptom onset –\nrecent new sexual partner\ncontact with known or suspected case of mpox\na travel history to a country where mpox is currently common\nlink to infected animal or meat\n(N.B. If a rash is highly suggestive of mpox, but a risk factor cannot be identified liaise with local infection specialist/microbiologist as to whether to consider mpox testing alongside the more common differential diagnosis)\n\nIf there are no clinical signs:\n\nConsider alternative diagnosis, seeking advice as required as part of normal clinical pathways.\nLiaise with local infection specialists/microbiology if clinical suspicion remains to agree next steps – including assessment for conditions such as malaria which could also cause illness in a returning traveller.\nIf yes, there are clinical signs:\nIsolate as per local pathways and clinically assess in line with National Infection Prevention and Control measures for clinically suspected and confirmed cases of mpox in healthcare settings.\nLiaison with local infection specialist/microbiology to discuss next steps, begin symptomatic treatment and ensure isolation and appropriate PPE is maintained throughout.\nLocal infection specialist/microbiology to discuss risk assessment with Imported Fever Service (0844 778 8990)."            },
+            {
+                "metadata": "Pathway checklist",
+                "page_conttent": "Patients self-presenting to ED Clade I mpox pathway checklist – probable or possible cases:\n\nHave you isolated the patient?\nHave you got access to the appropriate PPE (including donning and doffing procedures) to undertake a clinical assessment?\nSpeak to your local infection specialist/microbiologist for advice. Contact with the Imported Fever Service should be via your local infection specialist only\nNotify the relevant people in your department as per local pathways and agree clinical management plan whilst awaiting test results"            },
+            {
+                "metadata": "Links and guidance",
+                "page_content": "Mpox: guidance on when to suspect a case of mpox\nClade 1 mpox – affected countries list\nNational infection prevention and control manual (NIPCM)\nAddendum on high consequence infectious disease (HCID) personal protective equipment (PPE)"            },
+            {
+                "metadata": "Preparedness actions",
+                "page_content": "Providers to ensure that all clinical services are aware of the public health messaging and that a differential diagnosis of Mpox should be considered in any patient that meets the operational case definition\nProviders should review current IPC plans, PPE availability, waste management and staff training to ensure that arrangements are in place to safely assess and treat patients presenting with suspected Mpox\nProviders should review existing plans and clinical pathways ensuring that staff are aware of the arrangements for isolation, clinical management, specialist infection advice,  PPE and associated infection control measures\nDate published: 5 September, 2024\nDate last updated: 25 October, 2024"            }
+        ]
+    },
+    "time": "2024_10_25",
+    "source": "BMJ:clade-i-mpox-mpxv-pathway-actions-patients-self-presenting-at-emergency-departments",
+    "link": "https://www.england.nhs.uk/long-read/clade-i-mpox-mpxv-pathway-actions-patients-self-presenting-at-emergency-departments"
+}

@@ -1,0 +1,25 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "",
+                "page_content": "\r\n     Mpox (monkeypox)  virus is an orthopoxvirus that causes a disease with symptoms similar, but less severe, to smallpox. While smallpox was eradicated in 1980, mpox continues to occur in countries of central and west Africa. Two distinct clade are identified: the west African clade and the Congo Basin clade, also known as the central African clade. Mpox is a zoonosis: a disease that is transmitted from animals to humans. Cases are often found close to tropical rainforests where there are animals that carry the virus. Evidence of monkeypox virus infection has been found in animals including squirrels, Gambian pouched rats, dormice, different species of monkeys and others."
+            },
+            {
+                "metadata":"The pathogen",
+                "page_content": "  Mpox virus is an enveloped double-stranded DNA virus that belongs to the  Orthopoxvirus  genus of the  Poxviridae  family. There are two distinct genetic clades of the monkeypox virus: the central African (Congo Basin) clade and the west African clade. The Congo Basin clade has historically caused more severe disease and was thought to be more transmissible. The geographical division between the two clades has so far been in Cameroon, the only country where both virus clades have been found."
+            },
+            {
+                "metadata":" Natural host of monkeypox virus",
+                "page_content": " Various animal species have been identified as susceptible to monkeypox virus. This includes rope squirrels, tree squirrels, Gambian pouched rats, dormice, non-human primates and other species. Uncertainty remains on the natural history of monkeypox virus and further studies are needed to identify the exact reservoir(s) and how virus circulation is maintained in nature."
+            },
+            {
+                "metadata":"Outbreaks",
+                "page_content": " Human mpox was first identified in humans in 1970 in the Democratic Republic of the Congo in a 9-month-old boy in a region where smallpox had been eliminated in 1968. Since then, most cases have been reported from rural, rainforest regions of the Congo Basin, particularly in the Democratic Republic of the Congo and human cases have increasingly been reported from across central and west Africa. Since 1970, human cases of monkeypox have been reported in 11 African countries: Benin, Cameroon, the Central African Republic, the Democratic Republic of the Congo, Gabon, Cote d’Ivoire, Liberia, Nigeria, the Republic of the Congo, Sierra Leone and South Sudan.  Since early May 2022, cases of monkeypox have been reported from countries where the disease is not endemic, and continue to be reported in several endemic countries. Most confirmed cases with travel history reported travel to countries in Europe and North America, rather than West or Central Africa where the monkeypox virus is endemic. This is the first time that many mpox cases and clusters have been reported concurrently in non-endemic and endemic countries in widely disparate geographical areas. "
+            }
+        ]
+    },
+    "time": "2024_08_29",
+    "source": "WHO:Mpox(monkeypox)",
+    "link": "https://www.who.int/teams/blueprint/monkeypox"
+}

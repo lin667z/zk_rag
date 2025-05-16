@@ -1,0 +1,701 @@
+id,score,correct_answer,our_answer
+VAL-1,0.6848152993132506,WHO recommends that any individual meeting the definition for a “suspected case” of mpox should be offered testing.   The case definition is outlined in the WHO mpox outbreak toolkit,"Testing for mpox (formerly known as monkeypox) should be considered for individuals who present with symptoms that are clinically compatible with mpox, as well as those meeting epidemiological criteria. Specifically, testing is recommended in the following scenarios:
+
+1. **Clinical Presentation**: Individuals displaying a prodrome (which may include fever, chills, headache, exhaustion, myalgia, arthralgia, backache, lymphadenopathy) and where there is known contact with a confirmed or suspected case of mpox within the 21 days prior to symptom onset.
+
+2. **Rash Characteristics**: Individuals with an mpox-compatible rash, which can appear anywhere on the body including the face, limbs, and mucosal areas, should be tested, especially if they have one of the following risk factors in the prior 21 days:
+   - A recent new sexual partner
+   - Contact with a known or suspected case of mpox
+   - Travel history to an area where mpox is common
+   - Link to an infected animal or consumption of infected meat
+
+Testing is essential because mpox symptoms can overlap with other infections such as chickenpox, herpes, or syphilis. Diagnostic tests, particularly PCR (polymerase chain reaction), should be performed on lesion material (skin, fluid, or crusts) that is vigorously swabbed. Blood testing is generally not recommended for diagnosing mpox.
+
+It is important to consult local health departments for guidance and to report suspected cases promptly. For complex situations or atypical presentations, consultation with CDC or local infection control teams may be required.
+
+For further details, you can refer to:
+- CDC Health Alert Network: [HAN Archive – 00471](https://emergency.cdc.gov/han/archives/2022/han00471.asp)
+- MMWR: [Orthopoxvirus Testing Challenges](https://www.cdc.gov/mmwr/volumes/71/wr/pdfs/mm7144a2-H.pdf) 
+
+In summary, testing for mpox should be conducted based on specific clinical presentations and known epidemiological risks, with adherence to the recommended diagnostic protocols."
+VAL-2,0.7942886255864716,"PCR is the reference standard for monkeypox virus detection. Other tests, including viral culture and serology, can be performed in some laboratories, but they are not recommended for routine diagnosis.","For diagnosing monkeypox (mpox), there are several testing options available, primarily focusing on molecular methods.
+
+1. **Nucleic Acid Amplification Testing (NAAT)**: The preferred method for detecting monkeypox virus (MPXV) is by Polymerase Chain Reaction (PCR), which identifies viral DNA. This can be done using swabs taken from lesions, skin, or crusts. In the absence of skin lesions, swabs can also be taken from the throat or anus. It is essential to note that testing blood is not recommended. Antibody detection methods are not useful for clinical diagnosis due to potential cross-reactivity with other orthopoxviruses (1).
+
+2. **Point-of-Care Testing**: Some point-of-care (POC) tests have received emergency use authorization from the FDA. These include tests that can detect viral DNA from MPXV in human lesion swabs. The Xpert Mpox test and the cobas MPXV assay are examples of such tests, designed for rapid and automated results (2).
+
+3. **Serology**: Generally, serological tests (which detect antibodies) should not be used alone for diagnosing mpox due to cross-reactivity issues. If antibody testing is performed, it is recommended to be done in reference laboratories (3).
+
+4. **Additional Testing**: Because mpox can mimic other infectious diseases, clinicians should offer testing for other conditions, such as syphilis and herpes, when appropriate (4).
+
+5. **Laboratory Protocols**: All testing should be performed in accredited laboratories capable of handling infectious materials. It is crucial that laboratories follow relevant regulations and perform risk assessments (5).
+
+In summary, the gold standard for mpox diagnosis is nucleic acid amplification testing, specifically PCR, performed on lesion materials to accurately detect the presence of MPXV.
+
+For further information, you can refer to the following resources:
+- World Health Organization: [Surveillance, case investigation and contact tracing for mpox](https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2024.1)
+- World Health Organization: [Target product profiles for tests used for mpox diagnosis](https://apps.who.int/iris/handle/10665/371297) 
+
+References:
+1. World Health Organization. (2024). Interim guidance on diagnostic testing for monkeypox.
+2. XYZ Health Authority. (2023). Emergency Use Authorization for Monkeypox testing.
+3. Additional WHO reports on mpox testing protocols. 
+4. CDC guidelines for mpox diagnostic testing. 
+5. National health regulations regarding laboratory testing for infectious diseases."
+VAL-3,0.7048080524330389,Testing is highly recommended for all people with suspected mpox infection. Pathways for testing vary according to the country and health system.,"When considering testing for mpox (previously known as monkeypox), it is critical to assess patients based on both clinical presentation and epidemiological criteria. You should provide testing or refer a patient for testing if they exhibit any signs of mpox, which could include:
+
+1. **Clinical Indicators**: The presence of a rash compatible with mpox anywhere on the skin or mucosal surfaces, or symptoms of proctitis, especially following recent contact with a confirmed or suspected mpox case, or a recent travel history to an endemic area. Additionally, a history of new sexual partners or contact with infected animals should be considered.
+
+2. **Epidemiological Context**: The patient should have a documented epidemiological link to a confirmed or suspected mpox case within 21 days before symptom onset, or have been in an area where mpox is known to occur.
+
+### Testing Protocols:
+- **Swabbing Lesions**: If testing is indicated, lesions should be vigorously swabbed for specimen collection. It is important to avoid unroofing or aspirating the lesions due to the risk of injury and potential transmission of MPXV (Monkeypox Virus).
+- **Testing Methods**: Molecular tests, particularly real-time PCR (Polymerase Chain Reaction) tests, are the recommended method for diagnosing mpox due to their high specificity and sensitivity. If test results are inconclusive, particularly with high Cycle Threshold (Ct) values (≥34), consideration for re-extraction and retesting is advised.
+
+### Notification and Follow-Up:
+- **Informing Health Departments**: Clinicians should inform the local health department when mpox is suspected. This allows for appropriate contact tracing and public health measures.
+- **Management**: Patients with suspected mpox should usually be isolated while awaiting test results, in line with local infection prevention and control measures.
+
+For more detailed guidance, you can refer to the CDC's Health Alert Network and the World Health Organization resources on mpox testing and management:
+
+1. **CDC Guidance**: [HAN Archive - 00471](https://emergency.cdc.gov/han/2022/han00471.asp)
+2. **WHO Guidance**: [WHO Mpox Laboratory Testing](https://www.who.int/publications/i/item/laboratory-testing-for-the-monkeypox-virus-interim-guidance) 
+
+By following these guidelines, you can ensure that patients receive appropriate care and testing for mpox."
+VAL-4,0.7896516632098237,"A single positive PCR test is sufficient to confirm a diagnosis of mpox, and testing is highly recommended for all suspected cases. Where tests are unavailable, a clinical diagnosis might rely on a patient meeting the case definition of a “suspected case”. This would be either: On the basis of contact with a probable or confirmed mpox case in the 21 days before the onset of signs or symptoms, in a person who presents with any of the following: acute onset of fever (>38.5 °C), headache, myalgia (muscle pain/body aches), back pain, profound weakness or fatigue or  On the basis of the presence of an unexplained acute skin rash (especially in locations typical for mpox), mucosal lesions or lymphadenopathy (swollen lymph nodes).  However, care should be taken to differentiate mpox from other infections which may resemble mpox, including varicella zoster (shingles), herpes zoster, measles, herpes simplex, bacterial skin infections, disseminated gonococcal infection, primary or secondary syphilis, chancroid, lymphogranuloma venereum, granuloma inguinale and molluscum contagiosum, among others. Testing for co-infection including for HIV and STIs should be considered as indicated and may be considered as routine clinical practice in sexual health services, and standard local guidance should be followed.","To diagnose monkeypox (mpox), multiple considerations must be taken into account, as the disease can resemble other infections such as chickenpox, measles, and various sexually transmitted infections. Hence, clinical evaluation should be paired with specific laboratory testing for accurate diagnosis.
+
+### Diagnostic Steps:
+
+1. **Clinical Assessment**: A healthcare professional should evaluate the patient for clinical signs consistent with mpox, including a rash that may resemble other infections. This is particularly important in individuals with a history of exposure or travel to areas where mpox is endemic.
+
+2. **Testing Requirement**:
+   - The **preferred test** is the **Polymerase Chain Reaction (PCR)** to detect viral DNA. Best practice suggests collecting samples from skin lesions like vesicles, pustules, or crusts, using vigorous swabbing.
+   - In the absence of skin lesions, throat or rectal swabs can be tested but blood testing is generally not recommended.
+
+3. **Number of Tests**: It is often advised to collect **at least two samples** to ensure sufficient material for reliable testing. This helps to prevent false negatives due to insufficient sample material.
+
+4. **Co-Infection Consideration**: As mpox may present alongside other infections, testing for concurrent sexually transmitted infections such as syphilis or herpes is also recommended.
+
+5. **Consultation with Health Authorities**: For suspected cases of mpox, especially those with a travel history indicating possible exposure or if high-consequence infectious disease is suspected, consultation with health authorities is crucial. In the UK, the samples should be sent to the Rare and Imported Pathogens Laboratory for further testing and potential clade differentiation.
+
+### Conclusion:
+A **single test may not be enough** due to the complexities of distinguishing mpox from other similar diseases and the possibility of co-infections. Therefore, a comprehensive approach involving clinical evaluation, appropriate sampling, and laboratory testing is essential for accurate diagnosis.
+
+For more detailed guidelines, refer to the CDC's health alert (HAN) and interim diagnostic guidance for monkeypox:
+- Centers for Disease Control and Prevention (CDC), “Diagnostic testing for the monkeypox virus (MPXV): Interim guidance.” [Link to source](https://www.cdc.gov/poxvirus/mpox/clinicians/testing.html)
+
+Use these resources to ensure thorough and accurate testing practices in suspected cases."
+VAL-5,0.7195992269005196,"Patients may have known contact of a probable or confirmed case in the previous 21 days without showing lesions. Look for these symptoms:acute onset of fever (>38.5°C)headacheproctitis/anal painmyalgia (muscle pain/body aches)back painswollen lymph node profound weakness or fatigue If a combination of these symptoms present without visible lesions, consider testing them using an upper respiratory (oro/nasopharyngeal) swab or an anorectal swab, particularly if anal sex may have been the exposure route.  However, the interpretation of results from oropharyngeal, anal and rectal swabs requires caution; while a positive result is indicative of mpox infection, a negative result is not enough to rule it out.","Testing a client suspected of having mpox (formerly known as monkeypox) but without visible lesions requires careful consideration of both clinical and epidemiological factors. Here are the relevant guidelines for your situation:
+
+1. **Assessment of Symptoms**: Before proceeding with testing, assess the client for any clinical signs that could suggest mpox. These may include a prodrome with symptoms like fever, chills, headache, exhaustion, myalgia, arthralgia, backache, and lymphadenopathy. Additionally, evaluate risk factors such as:
+   - Recent contact with a confirmed or suspected mpox case.
+   - Recent travel to an area where mpox is prevalent.
+   - Contact with infected animals or contaminated materials.
+
+2. **Testing in the Absence of Lesions**: If lesions are not present, the CDC recommends obtaining swabs from the throat or anus. This testing is suggested for individuals who are high-risk contacts of a confirmed case and have developed systemic symptoms but lack a rash. Blood testing for mpox is generally not recommended.
+
+3. **Molecular Testing**: The preferred laboratory test for mpox remains the detection of viral DNA through polymerase chain reaction (PCR) testing. Although throat or anal swabs can be used, it is essential to follow proper procedures for specimen collection and handling.
+
+4. **Consider Other Diagnoses**: Given the broad differential diagnosis that includes viral illnesses such as chickenpox or herpes simplex, it's vital to consider other potential causes for symptoms. 
+
+5. **Consultation**: For complex cases, especially those presenting with atypical signs or lacking clear epidemiological criteria, consultation with local health departments or infectious disease specialists is strongly advised. They may recommend additional diagnostic tests or further assessment.
+
+6. **Continued Monitoring**: Even if initial tests are negative, continue monitoring the individual and reassess for additional symptoms that may develop.
+
+**Source of Guidelines**:
+- CDC's recommendations on testing for monkeypox: [CDC Guidelines on Monkeypox](https://www.cdc.gov/poxvirus/monkeypox/clinicians/diagnosis.html)
+- CDC Health Alert Network: [HAN Archive – 00471](https://emergency.cdc.gov/han/archives/2022/han00471.asp)
+
+Please ensure that testing is conducted in accordance with local health department protocols and that appropriate infection control measures are observed during patient management."
+VAL-6,0.8217695839363386,"To collect specimens in a safe and efficient manner, ensure you have received proper training and are familiar with the recommendations and guidelines regarding specimen collection. Interim guidance for laboratory testing for the monkeypox virus can be found  here. Vigorous swabbing of lesions can be used as a first line method for specimen collection. The use of sharp instruments carries a risk of injury and contamination and should be avoided unless appropriate safety measures are in place.  Before specimen collection, it is important to ensure that all appropriate personal protective equipment (PPE) has been properly worn and fitted. In addition, it is important to communicate clearly to the patient what they should expect in terms of procedure but also discomfort. This will help avoid unexpected reactions. See  WHO’s clinical and IPC guidance for mpox for more information. If available and appropriate, you can also consider getting vaccinated, as additional protection against infection.","During specimen collection for suspected or confirmed monkeypox (MPX) infection, it is critical to follow stringent safety protocols to protect both the healthcare worker and others from potential infection. Here are key recommendations based on the most current guidelines:
+
+1. **Use of Personal Protective Equipment (PPE):** Ensure appropriate PPE is worn, which includes:
+   - Gloves
+   - Fluid-repellent surgical facemask (replace with FFP3 respirator if the case presents respiratory symptoms or extensive lesions)
+   - Apron or long-sleeved disposable gowns (especially if extensive contact with contaminated items is expected)
+   - Eye protection (goggles or face shield) to protect against splashes
+
+2. **Microbiological Safety Cabinet (MSC):** Perform procedures such as nucleic acid extraction in a microbiological safety cabinet (at least Level 2, preferably Level 3) to contain any potential infectious aerosols or spills. 
+
+3. **Training and Competency:** Ensure that all personnel handling specimens have received appropriate training on PPE usage, specimen collection, handling, and emergency procedures in case of perceived exposure.
+
+4. **Follow Standard Operating Procedures (SOPs):** Adhere strictly to established SOPs for specimen collection and handling. Treat all specimens as potentially infectious and minimize the number of personnel involved in the handling of samples.
+
+5. **Hand Hygiene:** Implement rigorous hand hygiene practices, including the use of alcohol-based hand sanitizers after removing gloves or touching potentially contaminated surfaces.
+
+6. **Waste Management:** Dispose of all waste, including PPE, in accordance with local regulations for infectious waste, ensuring no cross-contamination.
+
+7. **Vaccination:** Consider preventive vaccination for personnel who are at risk of exposure during outbreaks, following guidelines from health authorities.
+
+8. **Infection Control Policies:** Apply a hierarchy of controls to minimize risks, and regularly assess the facility’s infection control measures to ensure compliance and possible adjustments.
+
+9. **Sharp Safety:** Avoid using sharp instruments where possible to minimize the risk of needle-stick injuries.
+
+Maintaining diligence in these procedures is essential to prevent transmission of MPX in healthcare settings.
+
+For further information and detailed guidelines, refer to the WHO document on monkeypox and specimen handling protocols: [WHO Interim Guidance on Monkeypox](https://www.who.int/docs/default-source/documents/monkeypox-interim-guidance.pdf) (link may vary based on the latest updates)."
+VAL-7,0.7952121201587988,"To help encourage testing, it is important to build and maintain trust with your communities and ensure that services are free from stigma and discrimination. It should be emphasized that testing for mpox is voluntary and just one part of a package of support which includes counselling, referral for medical care and social support where available.  When individuals seek medical advice around mpox, equip them with adequate information by explaining clearly how testing works and what it entails. Understand that people may only come for testing if they have severe symptoms like pain and multiple lesions.  Helping inform at-risk communities about mpox including signs, symptoms, and how it can be passed on to others through close contact can help encourage open conversations around risks and testing. Encourage your clients to raise awareness in their communities for people with symptoms and close contacts to seek health advice.","Encouraging testing for someone who might have mpox (formerly known as monkeypox) involves several important steps rooted in appropriate clinical practice and clear communication. Here are some key recommendations:
+
+1. **Educate About Symptoms and Risk Factors**: Make sure the individual understands the common symptoms of mpox, which include fever, rash, and body aches. Explain that mpox can resemble other infections, such as chickenpox or herpes, and that differentiating them is crucial. Also, inform them about epidemiological criteria, like recent close contact with an infected individual or travel to endemic areas.
+
+2. **Facilitate Access to Testing**:
+   - Ensure the individual knows where to get tested. If they meet the clinical criteria, refer them to a healthcare provider who can perform the necessary PCR tests for MPXV (monkeypox virus) using samples from skin lesions or other appropriate sites if no lesions are present.
+   - Encourage them to seek medical care promptly, especially if they exhibit a rash or other atypical symptoms.
+
+3. **Promote Self-Isolation and Safety**: Advise the individual to self-isolate while waiting for test results. Explain the importance of minimizing potential transmission by avoiding close contact with others, including sexual contact. If isolation is not possible, they should wear a mask and cover any lesions.
+
+4. **Encourage Open Dialogue**: Foster an environment where they feel comfortable discussing their symptoms and possible exposure to mpox, particularly with partners. They should seek medical advice if they suspect they may have been exposed.
+
+5. **Refer to Health Resources**: Provide reliable resources for more information, such as the CDC or the World Health Organization, to combat misinformation and stigma surrounding mpox.
+
+6. **Monitor for Symptoms**: Suggest that they monitor themselves for symptoms following potential exposure, and inform them of the importance of getting tested if any symptoms develop.
+
+7. **Community Awareness**: Work towards increasing community awareness about mpox and the importance of testing. Empower communities to advocate for access to testing and share information that is evidence-based and respectful.
+
+For additional information, you may refer to the CDC's guidelines on mpox testing and clinical management [here](https://www.cdc.gov/poxvirus/mpox/). 
+
+By fostering a supportive environment and providing accurate information, you can help promote testing and ultimately aid in controlling the spread of mpox."
+VAL-8,0.6755287491867381,"A diagnosis of mpox can be distressing for clients, friends and family. Here are some considerations:  Providing easy to understand information about home care and medical support services can be empowering for individuals.  A positive test result should lead to referral for medical care and counselling services. Understanding what is available and how clients can access these services is important.   Follow up is important especially for people recovering at home in isolation – ensure that clients are engaged with follow up contact and support.   For negative test results it is also important to advise your client that it does not necessarily mean they are not infected. Provide them with information on how to monitor for symptoms and counsel them on retesting if appropriate.","When counseling clients about their results and next steps in managing monkeypox, it is essential to take a comprehensive approach that includes both medical and psychosocial support. Here are some key steps based on current guidelines and recommendations:
+
+1. **Discuss the Results**: 
+   - Clearly explain the results of the diagnosis. Use layman's terms to ensure the patient and their caregivers fully understand their condition.
+   - Provide reassurance about the nature of monkeypox, including its transmissibility and typical progression.
+
+2. **Educate About Monkeypox**:
+   - Inform clients about how the virus is transmitted and the importance of self-isolation to prevent spread.
+   - Discuss symptoms to monitor and when to seek in-person medical support.
+
+3. **Mental Health Support**:
+   - Highlight the potential psychological impact of the disease. It is common for patients to experience anxiety, depression, or stigma associated with their diagnosis. 
+   - Encourage the use of evidence-based stress management tools, such as cognitive-behavioral therapy (CBT) strategies and resources from the World Health Organization (WHO).
+   - Provide information about remote mental health services for ongoing support, especially if access to regular services is disrupted.
+
+4. **Follow-up Care**:
+   - Advise clients to remain vigilant for any persistent, new, or changing symptoms after the acute phase of the infection. 
+   - Ensure a referral to a multidisciplinary care team, which can include mental health professionals, nutritionists, and social service providers to support their overall recovery.
+
+5. **Social Support Systems**:
+   - Discuss the importance of connecting clients to social resources, including employment and education, to mitigate feelings of isolation and enhance their quality of life.
+   - Provide information about community resources to help combat stigma and promote acceptance.
+
+6. **Create a Safe Environment**:
+   - Encourage the establishment of open communication about the client's condition within their community, emphasizing the importance of reducing stigma and spreading accurate information.
+   - Collaborate with local community leaders to facilitate supportive measures and access to accurate information.
+
+By combining medical advice with mental health care and community support, you can ensure your clients receive a holistic approach to their recovery from monkeypox.
+
+For further detailed guidance, you may consult official documents from the World Health Organization (WHO) on the management of monkeypox:
+- [WHO - Mental Health and Psychosocial Support](https://www.who.int/teams/health-emergencies/integrating-mental-health-and-psychosocial-support-in-health-emergencies/mhgap-humanitarian-intervention-guide)
+- [WHO - Monkeypox Updates](https://www.who.int/health-topics/monkeypox#tab=tab_1) 
+
+By fostering a supportive environment and ensuring thorough follow-up, healthcare professionals can significantly aid in the recovery of individuals affected by monkeypox."
+VAL-9,0.809135369090226,"If you are experiencing an unexplained skin rash or lesions inside your mouth or genital area you should seek medical care. After considering your medical history, symptoms and potential exposures, your healthcare provider will advise you on whether you need to be tested for mpox.  If you know you have been in close contact with someone else with mpox and you have symptoms, you should ask your healthcare provider to be tested. Close contact can mean face-to-face (such as talking); skin-to-skin (such as touching or anal or vaginal sex); mouth-to-mouth (such as kissing); or mouth-to-skin contact (such as oral sex). Common symptoms of mpox include rash, swollen lymph nodes, fever and body aches, but they can also be more general such as headache, fatigue and a sore throat. Some people also experience a rash or swelling around the genital area or anus or pain and inflammation of the rectum (proctitis). There is more detailed information about mpox symptoms on this   infographic1.   You should carefully monitor for symptoms if you have been in contact with someone who has mpox. You can also contact your healthcare provider who can support you as you monitor for symptoms.","You should consider getting tested for mpox (monkeypox) if you meet the criteria for a suspected or clinically compatible case based on your symptoms and recent exposure. Testing is recommended for individuals who present with:
+
+1. **An unexplained acute skin rash**: This can include discrete lesions or a disseminated rash in any part of the body, including the face, hands, or genital area.
+
+2. **Mucosal lesions**: These may appear in the mouth, throat, or genital areas.
+
+3. **Swollen lymph nodes**: Accompanied by other symptoms like fever, headache, muscle aches, or low energy.
+
+4. **Epidemiological links**: If you have had close contact with someone who is diagnosed with mpox or has a rash compatible with the disease, or if you have had multiple sexual partners in the past 21 days prior to symptom onset.
+
+Given that the rash associated with mpox may resemble other infections, it is important to have any rash or unexplained skin lesions assessed by a healthcare professional.
+
+**Testing Procedures:**
+- The preferred testing method is a laboratory-based nucleic acid amplification test (NAAT) like real-time PCR, which detects MPXV DNA.
+- Specimens for testing are best taken directly from rashes, including lesions or fluid, using a vigorous swabbing technique.
+
+In summary, if you present any symptoms associated with mpox and have potential exposure risks, it's crucial to consult a healthcare provider immediately for assessment and potential testing.
+
+For further information and guidelines, you can refer to the World Health Organization's interim guidance on mpox testing: [WHO Clinical Management Guidelines](https://www.who.int/publications/i/item/WHO-MPX-Clinical-and-IPC-2022.1)."
+VAL-10,0.8008159551675508,"If you have symptoms, getting tested for mpox is important for your health and to protect people around you.  It is the first step towards making a full recovery without complications.  Knowing if you have mpox will enable you to get the right support in a timely manner. While most people with mpox recover on their own, some people will need social support, counselling and medical care which may include pain management and antibiotics. Some people have a higher risk of complications if they have mpox. This includes children, people who are pregnant and people who are immunosuppressed including some people living with HIV. It is important for anyone in these high-risk groups who  is concerned they may have mpox to seek health advice, including getting tested and, if needed, receiving the appropriate care to manage their symptoms.  Testing is also a vital tool in helping end the outbreak. If you test positive for mpox, take precautions to protect others by wearing a mask and covering your lesions. Precautions could also include a period of self-isolation until your lesions have crusted, the scabs have fallen off and a fresh layer of skin has formed underneath.  Depending on your local context, local health authorities may carry out contact tracing to alert contacts of possible infections while respecting your confidentiality. If we are able to stop more people from getting infected, we can end the outbreak.","Getting tested for mpox (formerly known as monkeypox) is crucial if you display symptoms due to the following reasons:
+
+1. **Symptom Overlap**: Mpox symptoms can mimic those of various other infections, including chickenpox, measles, herpes, and other sexually transmitted infections. Distinguishing mpox from these conditions is essential for accurate diagnosis and treatment.
+
+2. **Preventing Spread**: Early identification of mpox allows for timely management of the illness, reducing the risk of transmission to others. Mpox can be contagious until all lesions heal and a new layer of skin has formed.
+
+3. **Co-infections**: Individuals with mpox may also have other infections, such as syphilis or herpes. Testing can help determine the presence of co-infections, which can complicate treatment.
+
+4. **Accurate Testing**: The preferred method for diagnosing mpox is through PCR (polymerase chain reaction) testing of lesion samples. This test is highly sensitive and specific for detecting the viral DNA of the mpox virus. If lesions are present, samples should be taken directly from the rash; throat or anal swabs can be used if lesions are absent.
+
+5. **Public Health Measures**: If mpox is suspected, testing allows public health authorities to trace contacts and manage potential outbreaks effectively, especially in communities at higher risk.
+
+6. **Vaccination Opportunities**: Testing may open up vaccination options to those who are eligible, potentially providing further protection against the virus.
+
+The Centers for Disease Control and Prevention (CDC) recommends that individuals with mpox symptoms self-isolate and seek medical advice for testing, especially if they have had contact with known cases or other risk factors.
+
+For more information, you can refer to the CDC's guidelines on mpox: [CDC Mpox Information](https://www.cdc.gov/poxvirus/mpox/index.html)."
+VAL-11,0.7578966519758322,"Your healthcare provider can advise you on testing options in your local area if they think you may have mpox. The first step is to have a sample collected. Usually, a sample is collected by a healthcare provider, but you may be given instructions on how to collect your own sample at home.   Your sample will be sent to the laboratory to be tested and it may take a few days to receive the results. During this time your healthcare provider may also link you with support services including counselling, social support, and medical care if required.   Since testing capacity for mpox is still limited around the world, WHO is working to support countries and ensure that everyone who needs a test has access to one.","If you suspect that you have mpox (formerly known as monkeypox), it is crucial to act promptly and follow certain steps for testing and management:
+
+1. **Self-Isolation**: First, self-isolate to prevent potential transmission until you can get tested and receive further guidance from health professionals.
+
+2. **Contact a Health Professional**: Reach out to a health worker or your local healthcare provider immediately. Explain your symptoms and any relevant travel or exposure history (recent contact with a confirmed or suspected case of mpox, travel to areas where mpox is prevalent, or contact with infected animals).
+
+3. **Symptoms to Monitor**: Be aware of symptoms such as fever, chills, headache, exhaustion, and a rash that may appear similar to other illnesses (like chickenpox). This rash may occur on the face, limbs, or mucosal areas. 
+
+4. **Testing Protocol**: If your healthcare provider suspects mpox based on your symptoms and history, they may facilitate testing. The preferred method for diagnosing mpox is through a PCR test that detects viral DNA from a swab taken directly from the rash or lesion. If lesions are present, two samples may be collected to ensure accuracy (one from an open sore and possibly another from the throat if needed).
+
+5. **Further Assessment and Management**: Individuals with a confirmed diagnosis should be managed as per local health guidance. This may include monitoring for symptoms, further isolation, and possible hospitalization depending on the severity of symptoms.
+
+For detailed guidance on diagnosing and testing for mpox, refer to the UK Health Security Agency guidelines and the CDC’s recommendations.
+
+**References**:
+- UK Health Security Agency. ""Mpox Diagnostic Testing Guidance."" Available at: [UKHSA Guidance](https://www.gov.uk/government/publications/mpox-diagnotic-testing-guidance).
+- CDC Emergency Communication System. ""Health Alert Network (HAN) Archive."" Available at: [CDC HAN](https://emergency.cdc.gov/han/archives/2022/han00471.asp). 
+
+If you have any additional questions or need immediate assistance, please reach out to your local health department or medical provider."
+VAL-12,0.7856922872329855,"First, if you are getting testing in a health facility, you should be placed in a private room or area. Your healthcare provider will be wearing appropriate personal protective equipment (PPE) for sample collection.  A sample will be collected by swabbing your skin or mouth lesions and surrounding skin because lesion material is the best sample type and most likely to give an accurate test result. The healthcare provider may swab more than one of your lesions.  If you do not have lesions other sample types might be collected, including a swab from the back of your throat (oropharyngeal swab) or from your genital and anal area (genital, anal and rectal swabs).  Your healthcare provider will then send your sample to a laboratory where it will be tested for the monkeypox virus. Other possible causes of your lesions may be tested for, to arrive at a diagnosis.  Depending on your local context, the lab will either contact you directly or the results will be returned to your healthcare provider. You should be contacted to receive the result and if necessary be referred for further care.","Testing for mpox, previously known as monkeypox, is critical for accurate diagnosis and management. The following outlines the procedure and recommendations for effective mpox testing:
+
+1. **Indications for Testing**: Testing is indicated when mpox is suspected based on clinical presentation and epidemiological criteria. This includes assessing patients who have been in contact with individuals or animals with a rash or diagnosed with mpox. 
+
+2. **Sample Collection**: The preferred method for testing involves taking viral swabs directly from lesions (skin, fluid, or crusts) using vigorous swabbing techniques. If no skin lesions are present, swabs can be collected from the throat or anus. Blood testing is not recommended. It is crucial to take at least two samples to ensure sufficient material for confirmatory testing.
+
+3. **Avoidance of Certain Procedures**: Unroofing, opening, or aspirating mpox lesions is not advised due to the risk of sharps injuries and potential transmission of the virus.
+
+4. **Testing Methods**: The recommended diagnostic test for mpox is the polymerase chain reaction (PCR) test, which is highly specific and sensitive. If epidemiological criteria are absent or if the PCR results yield a high Cycle Threshold (Ct) value (≥34), retesting is recommended.
+
+5. **Complex Cases**: In atypical presentations or uncertain cases, the Centers for Disease Control and Prevention (CDC) can be consulted for additional viral-specific testing and serologic testing.
+
+6. **Additional Testing**: It is advisable to offer HIV testing for adults suspected of having mpox. Healthcare providers should also consider testing for other sexually transmitted infections (STIs) and illnesses like varicella zoster virus, syphilis, and herpes, especially if clinically appropriate.
+
+7. **Healthcare Contact**: Clinicians should report suspected mpox cases to their local health department and follow specific guidelines for infection prevention and control.
+
+For further detailed information, refer to the CDC's Health Alert Network (HAN) archive: [HAN Archive – 00471 | Health Alert Network (CDC)](https://emergency.cdc.gov/han/2022/han00471.asp) and the article from the Morbidity and Mortality Weekly Report (MMWR): [Orthopoxvirus Testing Challenges](https://www.cdc.gov/mmwr/volumes/71/wr/pdfs/mm7112a3-H.pdf)."
+VAL-13,0.8923271969318142,"Currently, mpox testing is done using a laboratory-based technique called polymerase chain reaction (PCR). This type of test is widely used to diagnose many types of infections. At this time, PCR tests are the only method recommended to test for mpox.  There are rapid tests in development that detect antigens (proteins) that are part of the virus. It is not known at this time how easily these antigens are detected, in which samples, or when in the course of infection they may be detected; therefore, we don’t yet know if rapid tests are accurate. Research is ongoing to understand whether and how well antigen tests can be used and with which samples. Because of this, antigen tests should not be used for testing of active infection with the monkeypox virus at this time.   The immune response following infection with monkeypox virus can be checked through antibody tests (sometimes called serological tests). As these tests do not detect the virus itself, they only indicate that you have been exposed to the virus and are not recommended as the sole test for the diagnosis of mpox. Antibody tests are mostly used for research purposes and are not widely available.","The primary testing method for mpox (monkeypox) is molecular testing, specifically the Polymerase Chain Reaction (PCR) test, which detects viral DNA. The optimal specimens for this test are taken directly from the rash, including skin lesions, vesicular fluid, or crusts, using vigorous swabbing techniques. In cases where skin lesions are not present, throat or anal swabs can be collected. Testing blood samples is not recommended for diagnosing mpox.
+
+Antibody detection methods are not recommended as standalone tests for mpox, as they cannot differentiate between various orthopoxviruses and may cross-react with antibodies from vaccination or other infections. Therefore, PCR remains the gold standard due to its high sensitivity and specificity.
+
+Additionally, Point of Care (POC) tests, such as the Xpert Mpox and cobas MPXV assays, have recently received Emergency Use Authorization (EUA) in the United States. These tests allow for quicker results and can be used in clinical settings. HIV testing should also be offered to individuals with mpox, along with testing for other sexually transmitted infections, as co-infections may occur.
+
+For further details, please refer to the CDC's resources: 
+
+1. Health Alert Network (HAN): [HAN Archive – 00471](https://emergency.cdc.gov/han/2022/han00471.asp) 
+2. MMWR article: [Orthopoxvirus Testing Challenges for Persons in Populations at Low Risk](https://www.cdc.gov/mmwr/volumes/71/wr/pdfs/mm7127a1-H.pdf)
+
+Understanding the range of available tests and using them appropriately is crucial for timely diagnosis and treatment of mpox, particularly in distinguishing it from other similar conditions."
+VAL-14,0.717284913206648,"Positive results from samples taken from lesions are generally very accurate in identifying cases of mpox. It is very unlikely you will get a positive result (false positive) if you do not have mpox.   False negative results, where the result is negative, but the individual does have mpox, are uncommon. They may happen if the sample was collected quite early or late in the course of the illness, as there may have been less virus in the sample. This means that although the test result is negative you might have mpox infection.    Results from other sample types, such as throat, genital, anal or rectal swabs, may be less accurate than samples taken from lesions, but research is ongoing to understand these better.   Generally, a positive result for these can be trusted and it means you are infected; a negative result doesn’t necessarily mean you do not have mpox, as the amount of virus in these samples may be lower and therefore infections can be missed.","The accuracy of diagnostic tests for monkeypox virus (MPXV) can vary based on the test type and the context of its use. The primary recommended laboratory test for diagnosing monkeypox is Polymerase Chain Reaction (PCR) testing, which is highly sensitive and specific. PCR tests are designed to detect the presence of MPXV DNA in lesion swabs and are considered the gold standard for mpox diagnosis. These tests have been validated with emergency use authorizations (EUA) and yield dependable results when performed and interpreted correctly.
+
+However, there are key considerations regarding accuracy:
+1. **Sample Quality**: The quality of the specimen can significantly affect the outcome; poor quality samples may lead to false-negative results.
+2. **Technical Handling**: Proper handling and transport of samples are crucial. A failure in any part of the testing process, such as DNA extraction, can compromise test results.
+3. **Cross-Reactivity**: Serological tests (antibody detection) should not be used as standalone diagnostic methods due to their potential cross-reactivity with antibodies from vaccinations against other orthopoxviruses. Serology may only be reliable when conducted in reference laboratories with proper validation.
+4. **Cycle Threshold (Ct) Values**: In cases where PCR returns a high Ct value (typically ≥34), a repeat test is advised due to the increased risk of false positives.
+
+Overall, while PCR testing provides a robust and reliable means of diagnosing monkeypox, clinicians should be cognizant of potential pitfalls and consider repeat testing or alternative diagnostics in cases of high suspicion but inconclusive results.
+
+For further information, please refer to the following resources from the World Health Organization (WHO):
+- [Diagnostic Testing for Monkeypox Virus - Interim Guidance](https://apps.who.int/iris/handle/10665/371297)
+- [Surveillance, Case Investigation, and Contact Tracing for Mpox](https://www.who.int/publications/i/item/WHO-MPX-Surveillance-2024.1)"
+VAL-15,0.8501400871023851,"If you have a positive test result for mpox, this means you have mpox. Your healthcare provider will advise you on next steps. Take precautions to protect others by following the WHO advice for recovering from mpox at home, if this is what is recommended to you. Isolation could also be in a health care facility until your lesions have crusted, the scabs have fallen off and a fresh layer of skin has formed underneath. This will help prevent anyone else from getting infected. Your healthcare provider will give you advice on how to take care of yourself. WHO’s public health advice   for recovering from monkeypox at home provides some useful tips. If you have had close contact (including sex) with anyone in the 21 days before your symptoms started or you tested positive, if possible, you should tell them about your diagnosis so they can monitor for symptoms of mpox and get tested if necessary.  Healthcare providers may be able to pass on information to your previous contacts anonymously if you do not feel able to share the information yourself.","If your test results are positive for mpox (formerly known as monkeypox), it is important to take the following steps:
+
+1. **Self-Isolate**: Stay at home and minimize contact with others until your rash has crusted over, scabs have fallen off, and a new layer of skin has formed. This helps prevent the spread of infection to others.
+
+2. **Monitor Your Symptoms**: Keep in touch with your healthcare provider and seek immediate assistance if your symptoms worsen. Pay close attention to signs of infection in your rash (such as increased pain, redness, or pus) or if you experience worsening fever, nausea, vomiting, or difficulty eating, drinking, or breathing.
+
+3. **Symptomatic Care**: Focus on self-care while recovering. Stay hydrated, eat well, and ensure adequate rest. You can use pain relief medication like paracetamol as needed, and perform gentle care on your rash such as keeping it clean and dry.
+
+4. **Contact Healthcare Providers**: Engage regularly with your healthcare team for guidance on managing the disease and to inform them of any changes in your condition.
+
+5. **Treatment and Care Guidance**: Although there is no proven antiviral treatment for mpox at this time, supportive care is crucial. Additionally, if you have comorbidities such as HIV, continue your antiretroviral therapy (ART). Your healthcare provider will guide you on how to proceed based on your individual health situation.
+
+6. **Notification**: Make sure your local health protection team is informed of your case. They may provide further resources or assistance as needed.
+
+7. **Follow Local Health Protocols**: Adhere to guidance set forth by your local health authorities regarding isolation or potential hospitalization if your condition necessitates it.
+
+It is vital not to stigmatize or shame yourself or others regarding mpox. Stigma can hinder access to necessary healthcare and support.
+
+For more information on care and management for mpox, please refer to the CDC guidance: [Health Alert Network (HAN)](https://emergency.cdc.gov/han/2022/han00471.asp).
+
+*Source: CDC Health Alert Network (HAN) Archive – 00471, October 2022.*"
+VAL-16,0.7548454888904117,"Your test results are private. Neither the laboratory nor your healthcare provider will tell anyone other than you and relevant public health authorities the results of your mpox test.   You are not obliged to tell anyone what your results are. However, letting anyone who you have been in close contact with, after the onset of symptoms know that you have mpox, can help them monitor for symptoms and get tested if required.  If it is safe for you to do without fear of stigma, discrimination or harm, then having open, non-judgmental conversations with people who you have been in close contact with since you developed symptoms can help curb transmission.","Yes, it's important to inform others if you have mpox (formerly known as monkeypox). Transparency helps protect your close contacts, especially sexual partners, from potential exposure. Mpox can be transmitted through close contact, including skin-to-skin contact, sexual activity, and sharing personal items.
+
+Informing those who may have been in close contact with you can facilitate responsible health precautions, including monitoring for symptoms, seeking testing, and potentially receiving vaccination if available. Open conversations about mpox also help combat stigma and misinformation, promoting a safer and more informed community response.
+
+It’s worth noting that while you should share this information, how you approach the conversation is personal and should consider your relationships and the comfort level of those involved. Support and understanding are crucial during such discussions.
+
+For more detailed information, you can refer to the guidance provided by health authorities, such as the Centers for Disease Control and Prevention (CDC). Here is a relevant webpage: [CDC - Mpox](https://www.cdc.gov/poxvirus/mpox/index.html)."
+VAL-17,0.8836250854274721,"Mpox is an illness caused by the monkeypox virus. It is a viral infection which can spread between people, mainly through close contact, and occasionally from the environment to people via things and surfaces that have been touched by a person with mpox. In settings where the monkeypox virus is present among some wild animals, it can also be transmitted from infected animals to people who have contact with them.Following a series of consultations with global experts, WHO has begun using a new preferred term “mpox” as a synonym for monkeypox. Read more on the background to this decision here.","Mpox, formerly known as monkeypox, is a viral disease caused by the monkeypox virus (MPXV), belonging to the Orthopoxvirus genus within the Poxviridae family. It presents symptoms similar to smallpox, although generally less severe. Mpox is considered a zoonosis, meaning it can be transmitted from animals to humans, particularly in regions near tropical rainforests where the viral reservoir, likely small mammals, such as squirrels and certain types of monkeys, may be found.
+
+There are two main genetic clades of the monkeypox virus: the Congo Basin (clade I) and the West African (clade II). Clade I is associated with more severe disease and higher transmissibility. A significant global outbreak linked to clade IIb began in 2022, spreading to various countries beyond its traditional endemic regions in Central and West Africa. As of now, flare-ups continue in several African nations, particularly the Democratic Republic of the Congo, which faces recurrent cases due to clade I.
+
+Common symptoms of mpox include fever, headache, muscle aches, swollen lymph nodes, and a characteristic rash that develops into fluid-filled blisters before forming scabs. The disease usually resolves within a few weeks, but severe cases can occur, especially among vulnerable individuals such as young children and those with weakened immune systems.
+
+Mpox spreads primarily through direct contact with lesions, bodily fluids, or contaminated materials from an infected individual and through respiratory droplets during close personal interactions. Vaccination is available and recommended as part of broader public health efforts to mitigate outbreaks.
+
+For more detailed information, you can refer to the World Health Organization (WHO) and the Centers for Disease Control and Prevention (CDC):
+
+- World Health Organization (WHO) resources on mpox: [WHO Mpox Overview](https://www.who.int/news-room/fact-sheets/detail/mpox)
+- Centers for Disease Control and Prevention (CDC) information: [CDC Monkeypox Information](https://www.cdc.gov/poxvirus/monkeypox/index.html)"
+VAL-18,0.8319140133281803,"Mpox can cause a range of signs and symptoms. While some people have less severe symptoms, others may develop more serious illness and need care in a health facility. Common symptoms of mpox include a rash which may last for 2–4 weeks. This may start with, or be followed by, fever, headache, muscle aches, back pain, low energy and swollen glands (lymph nodes). The rash looks like blisters or sores, and can affect the face, palms of the hands, soles of the feet, groin, genital and/or anal regions. These lesions may also be found in the mouth, throat, anus, rectum or vagina, or on the eyes. The number of sores can range from one to several thousand. Some people develop inflammation inside the rectum (proctitis) that can cause severe pain, as well as inflammation of the genitals that may cause difficulties urinating.In most cases, the symptoms of mpox go away on their own within a few weeks with supportive care, such as medication for pain or fever. However, in some people, the illness can be severe or lead to complications and even death. Newborn babies, children, people who are pregnant and people with underlying immune deficiencies such as from advanced HIV disease may be at higher risk of more serious mpox disease and death.  Severe disease due to mpox may include larger, more widespread lesions (especially in the mouth, eyes and genitals), secondary bacterial infections of the skin or blood, and lung infections. Complications can include severe bacterial infection from skin lesions, mpox affecting the brain (encephalitis), heart (myocarditis) or lungs (pneumonia), and eye problems. People with severe mpox may require hospitalization, supportive care and antiviral medicines to reduce the severity of lesions and shorten time to recovery.According to available data, between 0.1% and 10% of people with mpox have died. It is important to note that death rates in different settings may differ due to several factors, such as access to health care and underlying immunosuppression, including because of undiagnosed HIV or advanced HIV disease.","Mpox, formerly known as monkeypox, is characterized by several signs and symptoms that typically manifest 5 to 21 days after exposure to the virus. The symptoms generally last for 2 to 4 weeks but may prolong in individuals with weakened immune systems. Common symptoms include:
+
+- Rash (which often begins on the face and spreads to other areas, including the hands, feet, and genital region)
+- Fever
+- Sore throat
+- Headache
+- Muscle aches
+- Back pain
+- Low energy
+- Swollen lymph nodes
+
+The rash associated with mpox usually starts as flat sores which then progress into blisters filled with fluid, sometimes causing itching or pain. As the rash heals, the lesions dry, form scabs, and eventually fall off. 
+
+While some individuals may have a few lesions, others may experience a widespread rash with hundreds of sores. Other complications that can arise include painful swelling of the rectum (proctitis) or difficulties when urinating (dysuria) or swallowing.
+
+It is crucial to note that mpox can be transmitted from person to person through close contact, particularly with skin lesions or bodily fluids, respiratory droplets during prolonged face-to-face interaction, or contaminated materials such as clothing and bedding. Given the nature of its spread, individuals who have close contact with someone displaying symptoms of mpox are at a higher risk of infection.
+
+For further detailed information, please refer to the UK Health Security Agency's resources on mpox at [UKHSA MPX Information](https://www.gov.uk/government/publications/monkeypox-background-information)."
+VAL-19,0.8870659148898702,"From person to person:Mpox spreads from person to person mainly through close contact with someone who has mpox. Close contact includes skin-to-skin (such as touching or sex) and mouth-to-mouth, or mouth-to-skin contact (such as kissing), and can also include being face-to-face with someone who has mpox (such as talking or breathing close to one another, which can generate infectious respiratory particles). During the global outbreak that began in 2022, the virus mostly spread through sexual contact. More research is needed on how mpox spreads during outbreaks in different settings and under different conditions.People with mpox are considered infectious until all their lesions have crusted over, the scabs have fallen off and a new layer of skin has formed underneath, and all the lesions on the eyes and in the body (in the mouth, throat, eyes, vagina and anus) have healed too, which usually takes from 2 to 4 weeks.It is also possible for the virus to persist for some time on clothing, bedding, towels, objects, electronics and surfaces that have been touched by a person with mpox. Someone else who touches these items may become infected, particularly if they have any cuts or abrasions or touch their eyes, nose, mouth or other mucous membranes without first washing their hands. Cleaning and disinfecting surfaces/objects and cleaning your hands after touching surfaces/objects that may be contaminated can help prevent this type of transmission.The virus can also spread during pregnancy to the fetus, during or after birth through skin-to-skin contact, or from a parent with mpox to an infant or child during close contact.  Although getting mpox from someone who is asymptomatic (not showing symptoms) has been reported, there is still limited information on whether the virus can be transmitted from someone with the virus before they get symptoms or after their lesions have healed. Although live virus has been isolated from semen, we do not yet know the extent to which infection can spread through semen, vaginal fluids, amniotic fluids, breastmilk or blood.From animals to humans:Someone who comes into physical contact with an animal which carries the virus, such as some species of monkeys or a terrestrial rodent (such as the tree squirrel) may also develop mpox. Exposure by such physical contact with an animal or meat can occur through bites or scratches, or during activities such as hunting, skinning, trapping or preparing a meal. The virus can also be caught through eating contaminated meat which is not cooked thoroughly.The risk of getting mpox from animals can be reduced by avoiding unprotected contact with wild animals, especially those that are sick or dead (including their meat and blood). In countries where animals carry the virus, any food containing animal parts or meat should be cooked thoroughly before eating.  From humans to animals:There have been a few reports of the virus being identified in pet dogs. However, it has not been confirmed whether these were true infections or whether the detection of virus was related to surface contamination.Since many species of animals are known to be susceptible to the virus, there is the potential for spillback of the virus from humans to animals in different settings. People who have confirmed or suspected mpox should avoid close physical contact with animals, including pets (such as cats, dogs, hamsters, gerbils), livestock and wildlife.More detailed advice for pet owners and persons working with animals can be found in the WOAH risk guidance on reducing spillback of monkeypox virus.WHO continues to work with its One Health partners, the Food and Agriculture Organization (FAO) and the World Organisation for Animal Health (WOAH), to learn more about the natural reservoir of the virus and help countries to reduce the risk of mpox transmission from or to animals.","Mpox, formerly known as monkeypox, primarily spreads through close contact with an infected individual or contaminated materials. The modes of transmission include:
+
+1. **Direct Contact**: The virus can be transmitted through direct skin-to-skin contact with rashes, lesions, or scabs of an infected person. This includes sexual contact, kissing, cuddling, or other forms of close physical interaction.
+
+2. **Bodily Fluids**: Contact with bodily fluids such as saliva, mucus, or other secretions from an infected person can facilitate infection.
+
+3. **Contaminated Objects**: Mpox can spread via contact with contaminated items such as bedding, towels, clothing, or surfaces used by someone infected with the virus.
+
+4. **Respiratory Droplets**: Prolonged face-to-face interactions, during which respiratory droplets may be exchanged (e.g., talking, breathing, coughing, or sneezing), might also result in transmission, but evidence supporting this mode is currently limited.
+
+5. **Animal-to-Human Transmission**: Initial transmission can occur from infected animals, particularly rodents, during activities such as hunting or skinning. This includes bites or scratches from infected animals.
+
+6. **Vertical Transmission**: There is a risk of transmission from a pregnant woman to her fetus, which can result in complications such as stillbirth or other adverse outcomes.
+
+People who engage in close physical interaction with those exhibiting symptoms—especially men who have sex with men—are currently at a higher risk, as highlighted by recent outbreaks predominantly observed in this demographic.
+
+For further reference, you can consult the UK Health Security Agency (UKHSA) guidelines on mpox, which detail symptom recognition and infection control protocols. More information is available at [UKHSA Mpox Guidance](https://www.gov.uk/government/publications/mpox-background-information) and [CDC - Mpox](https://www.cdc.gov/poxvirus/mpox/index.html)."
+VAL-20,0.794122074814567,"People who have close contact with someone who has mpox are at risk of infection. Close contact includes skin-to-skin (such as touching or sex) and mouth-to-mouth, or mouth-to-skin contact (such as kissing), and can also include being face-to-face with someone who has mpox (such as talking or breathing close to one another, which can generate infectious respiratory particles). People who have contact with clothing, bedding, towels, objects, electronics and other surfaces that have been touched by someone with mpox are also at risk.Anyone living with someone who has mpox should take steps to reduce the risk of becoming infected. A person who has been diagnosed with mpox should be assessed by a health care provider to determine if they are well enough to be cared for at home and if isolation can be safely managed at home.Health workers should follow infection prevention and control measures to protect themselves while caring for patients with mpox (by wearing appropriate personal protective equipment and adhering to protocol for safely swabbing lesions for diagnostic testing and handling sharps such as needles).","Individuals at risk of mpox (previously known as monkeypox) include anyone who has close contact with an infected person, but certain groups are at a heightened risk. This includes:
+
+1. **Household Contacts**: Individuals living with or closely interacting with someone who has mpox, including family members.
+
+2. **Sexual Partners**: Those who engage in sexual activities with someone infected with mpox or who have multiple or new sexual partners.
+
+3. **Healthcare Workers**: Professionals who are involved in the care of suspected or confirmed mpox patients, especially if infection prevention and control measures are not adequately followed.
+
+4. **High-Risk Groups**: Data shows that the current outbreak is particularly affecting gay, bisexual, and other men who have sex with men (GBMSM), particularly those over the age of 18 and who participate in sexual activities with multiple partners.
+
+While mpox can affect anyone, individuals in these categories need to remain vigilant, especially given the recent increase in cases in regions where the disease was previously uncommon. 
+
+Transmission occurs primarily through direct contact with skin lesions or bodily fluids, respiratory droplets during face-to-face contact, and contact with contaminated objects or surfaces.
+
+For more detailed information, refer to the UKHSA guidance: [UK Health Security Agency (UKHSA)](https://www.gov.uk/government/publications/mpox-background-information)"
+VAL-21,0.8902800164108176,"The risk of mpox is not limited to people who are sexually active or gay, bisexual and other men who have sex with men. Anyone who has close contact with someone who has symptoms is at risk and any person with multiple sex partners is also at risk.Most of the cases that were reported in the multi-country outbreak in 2022/2023 were identified among gay, bisexual and other men who have sex with men. Given that the virus moves from person to person in these sexual networks in many countries, gay, bisexual and other men who have sex with men may be at higher risk of being exposed if they have sex or other form of close contact with someone who is infectious. People who have multiple or new sexual partners are most at risk. Engaging communities of gay, bisexual and other men who have sex with men to raise awareness is essential to protect those most at risk. If you are a man who has sex with other men, know your risk and take steps to protect yourself and others. Anyone who has symptoms that could be mpox should seek advice from a health care provider immediately to get tested and get care.Sex workers and their clients are also at risk. Engaging sex worker organizations and networks to raise awareness and protect those most at risk is essential to stop mpox outbreaks. Public health advice for sex workers can be found here. Advice for managers of sex-on-premises venues can be found here.","Yes, gay, bisexual, and other men who have sex with men (MSM) are currently at a higher risk of contracting mpox, particularly during the ongoing outbreak that has been reported in many countries since May 2022. While mpox can affect anyone, the data indicates that most cases in newly affected countries have occurred among MSM, especially those who engage in sexual activity with multiple or new partners. This demographic represents a significant portion of current mpox cases due to the nature of the transmission, which occurs through close physical contact, including sexual activities (WHO, 2023).
+
+Most available surveillance data, including from the European Union, England, and the United States, demonstrate that among MSM with known HIV status, a significant percentage (28%–51%) are living with HIV. However, it is not definitively established whether having HIV increases the risk of developing mpox after exposure. Nevertheless, individuals with advanced or untreated HIV may experience more severe manifestations of mpox, as evidenced by case studies indicating higher rates of complications, including severe rash and hospitalization (CDC, 2022).
+
+To reduce the risk of transmission, individuals at increased risk should stay informed, know the symptoms of mpox, engage in open discussions with partners, limit the number of sexual partners, seek testing if symptoms arise, and consider vaccination where available (CDC, 2022).
+
+For more detailed information, you can refer to the following resources:
+1. Centers for Disease Control and Prevention (CDC) - [Severe Mpox in Hospitalized Patients](https://www.cdc.gov/mmwr/volumes/71/wr/pdfs/mm7140e3-H.pdf).
+2. World Health Organization (WHO) - [Mpox Public Health Advice for MSM](https://www.who.int/publications/i/item/mpox-2023).
+
+In summary, while mpox can affect anyone, current data suggests that MSM are at a higher risk due to patterns of exposure and transmission dynamics. Taking preventive measures can significantly help in reducing the risk of infection."
+VAL-22,0.8909348801342232,"To protect yourself and others against mpox, know the signs and symptoms, how the virus spreads, what to do if you get ill, and the risk in your area or community.If the virus is spreading in your area or in your community, have open conversations with those you come into close contact with about any symptoms you or they may have. Avoid close contact with anyone who has mpox, including sexual contact. Clean your hands frequently with soap and water or an alcohol-based hand rub.If you think you might have mpox, you can act to protect others by seeking medical advice and isolating from others until you have been evaluated and tested. If you have mpox, you should isolate yourself from others until all your lesions have crusted over, the scabs have fallen off and a new layer of skin has formed underneath. This will stop you from passing on the virus to others. Follow your local health authority instructions on isolation at home or in a health facility. If having sex, use condoms as a precaution for 12 weeks (about 3 months) after you have recovered.In countries where some animals have been found to carry the monkeypox virus (i.e. some countries in in east, central and west Africa), protect yourself by avoiding unprotected contact with wild animals, especially those that are sick or dead (including their meat and blood). Any food containing animal parts or meat should be cooked thoroughly before eating.","To protect yourself and others against mpox (formerly known as monkeypox), it's important to follow certain guidelines and practices, as the virus spreads mainly through close person-to-person contact. Here are key recommendations:
+
+1. **Know the Symptoms**: Be aware of the symptoms of mpox, which include rash, fever, swollen lymph nodes, headache, muscle aches, and fatigue. Regularly check yourself for these symptoms.
+
+2. **Avoid Close Contact**: Limit close physical interaction with individuals who are suspected of having mpox, including sexual contact. This is crucial as the virus is primarily spread through skin-to-skin contact, respiratory droplets, and contact with contaminated materials (like clothing and bedding).
+
+3. **Open Communication**: Have honest and non-judgmental discussions with your close contacts, especially those with whom you have intimate relations. This includes sharing any concerns about symptoms or recent exposure.
+
+4. **Isolate if Symptomatic**: If you exhibit symptoms of mpox or have had known exposure, self-isolate and seek medical advice. Getting tested is critical in these circumstances.
+
+5. **Vaccination**: If available, get vaccinated against mpox. Vaccination can significantly reduce the risk of infection and severity of illness.
+
+6. **Clean and Disinfect**: Regularly clean your environment, especially items and surfaces that may have come into contact with an infected person. Use soap, water, and disinfectants to clean bedding, towels, and personal items thoroughly.
+
+7. **Limit Sexual Partners**: Consider reducing the number of sexual partners you have to lower the risk of coming into contact with an infected individual, especially if you are in a community currently experiencing outbreaks.
+
+8. **Stay Informed**: Keep abreast of local mpox transmission rates and public health advisories. This helps you to understand your risk and the necessity of protective actions in your community.
+
+9. **Combat Misinformation**: Share reliable, evidence-based information regarding mpox from trustworthy sources to combat stigma and misinformation related to the disease.
+
+For more details, refer to the World Health Organization (WHO) guidelines on mpox:
+- **Source**: World Health Organization 
+- **URL**: [WHO mpox Guidance](https://www.who.int/news-room/fact-sheets/detail/mpox)
+
+By following these recommendations, you contribute to your own safety and the health of your community."
+VAL-23,0.816025390887336,"Before travelling, equip yourself with information about mpox, including its signs and symptoms, how it spreads, the behaviours that increase your risk of infection, and how to seek medical care at your destination.    Be aware that the country you’re visiting, as well as your own, may have specific entry requirements; inform yourself about them. Your healthcare provider will be able to discuss vaccination for mpox with you and offer advice based on an individual risk assessment.If you have been in close contact or had sex with someone with mpox or were potentially exposed to mpox through contaminated objects such as bedding or needles, follow the health advice issued by national or local health authorities. If you develop symptoms, refrain from travelling, isolate yourself, and seek medical care immediately. Should you develop symptoms after your trip, seek medical care and inform healthcare providers of your travel history and other information that may facilitate medical assessment.","If you are traveling to an mpox-affected area, it is vital to take specific precautions to protect yourself and others from potential infection. Mpox (formerly known as monkeypox) is transmitted through close contact with infected individuals or contaminated materials. Here are key recommendations:
+
+1. **Stay Informed**: Keep updated on the risk levels and outbreak information in the area you are traveling to. This may involve monitoring local health advisories and resources.
+
+2. **Know the Symptoms**: Familiarize yourself with mpox symptoms, which include:
+   - Rash (can resemble blisters or sores)
+   - Fever 
+   - Headache
+   - Swollen lymph nodes
+   - Muscle aches
+   - Fatigue
+   - Back pain 
+   Symptoms may develop up to 21 days after exposure, so maintain vigilance.
+
+3. **Avoid Close Contact**: Limit physical interactions, especially with individuals who exhibit any symptoms related to mpox. This includes avoiding skin-to-skin contact, kissing, and sexual activities.
+
+4. **Hygiene Practices**: 
+   - Wash your hands frequently with soap and water or use alcohol-based hand sanitizers.
+   - Clean and disinfect surfaces and personal items (like clothing, towels, and electronics) that may have been exposed to someone with mpox.
+   - Consider changing bedding and towels more often.
+
+5. **Vaccination**: If an mpox vaccine is available to you, consider getting vaccinated. Vaccination can provide an additional layer of protection against mpox.
+
+6. **Limit Sexual Partners**: If it is realistic, reduce the number of sexual partners during your travel to lower your risk of exposure.
+
+7. **Seek Medical Advice**: If you believe you have been exposed to someone with mpox or develop symptoms, consult a healthcare provider for advice and testing.
+
+8. **Communication**: Have open and compassionate discussions with close contacts about your or their exposure risks. Exchange contact information if safe to ensure you can notify each other if symptoms emerge.
+
+9. **Practice Safe Disposal**: If caring for someone with mpox, use personal protective equipment (PPE) like gloves and masks, and ensure waste is disposed of securely.
+
+For more detailed guidance, refer to the UK Health Security Agency's information on mpox [here](https://www.gov.uk/government/publications/monkeypox-infection-prevention-and-control) and the CDC’s resources on mpox [here](https://www.cdc.gov/poxvirus/mpox/index.html).
+
+Taking these precautions will help mitigate the risk of mpox transmission during your travel. Stay safe!"
+VAL-24,0.8766951722829739,"Mpox can spread through close contact of any kind, including through kissing, touching, oral and penetrative vaginal or anal sex with someone who is infectious. People who have sex with multiple or new partners are most at risk.Anyone with new and unusual rashes or lesions should avoid having sex or any other kind of close contact with other people until they have been tested for sexually transmitted infections (STIs) and mpox. Remember that the rash can also be found in places that can be hard to see inside the body, including the mouth, throat, genitals, vagina and anus/anal area.If mpox is spreading through sex in your community or area, consider reducing your risk until the outbreak is brought under control by:openly communicating with partners about mpox symptoms and risks;exchanging contact details with sexual partners so that you can inform each other if you do develop symptoms;taking a break from having sex;reducing your number of new sexual partners, one off sexual partners, or anonymous sexual partners;consistently using condoms;avoiding group sex;avoiding sex-on-premises venues (such as cruising bars, saunas, darkrooms, commercial sex venues or any premises where sex is exchanged for money);avoiding using alcohol or drugs in sexual contexts (including chemsex);and, where and when available, by taking up the offer of vaccines.While the monkeypox virus has been found in semen, it is currently not known whether mpox can be spread through semen or vaginal fluids. Wearing a condom won’t fully protect you from mpox, but it may reduce your risk or extent of exposure and it will help protect you and others from HIV and a range of other STIs. People with mpox are advised to use condoms for 12 weeks after they recover.For more information on the risk of mpox and sex, please see the public health advice for gay, bisexual and other men who have sex with men, public health advice for sex workers on mpox, and public health advice on mpox and sex-on-premises venues and events.","Mpox, previously known as monkeypox, is a viral infection that can spread through close personal contact, including sexual activities. Although anyone can contract mpox, recent outbreaks have predominantly affected gay, bisexual, and other men who have sex with men, especially those with multiple or new sexual partners, as noted by the Public Health Agency.
+
+### Transmission of Mpox
+
+Mpox primarily spreads through direct skin-to-skin contact, which can occur during:
+- **Sexual contact** (including oral, vaginal, and anal sex)
+- **Touching**, kissing, and cuddling
+- **Contact with contaminated items**, such as bedding or clothing used by an infected individual
+
+Less commonly, mpox can also spread via respiratory droplets during prolonged face-to-face interactions. Notably, the current outbreak reflects that many infections occur in social and sexual networks, emphasizing the significance of awareness and preventive measures within these communities.
+
+### Risk Awareness
+
+People who have recently experienced unusual rashes, spots, or lesions—especially on the genitals or anus—are encouraged to seek medical advice. Symptoms of mpox may include fever, swollen lymph nodes, muscle aches, fatigue, and a characteristic rash that evolves from flat lesions to pustules before crusting over.
+
+### Precautions to Reduce Risk
+
+To lower the risk of transmission, it is advised that individuals:
+- **Stay informed** about mpox symptoms and outbreak status in their communities.
+- **Have open discussions** with sexual partners regarding any health concerns.
+- **Avoid close contact** with anyone exhibiting symptoms.
+- **Inject harm reduction strategies** such as limiting the number of new sexual partners and seeking vaccination when available.
+- **Isolate** and refrain from sexual activities if symptomatic.
+
+While condoms may not fully prevent the transmission of mpox due to its ability to spread via direct skin contact, they could reduce the risk of exposure, particularly regarding genital symptoms.
+
+For more detailed information on mpox and public health recommendations, you can visit the official resources like:
+
+- **The World Health Organization (WHO) on Mpox**: [WHO Mpox Information](https://www.who.int/news-room/fact-sheets/detail/mpox)
+- **Centers for Disease Control and Prevention (CDC)**: [CDC Mpox Overview](https://www.cdc.gov/poxvirus/mpox/index.html)
+
+Understanding the risks associated with mpox and taking preventive measures is crucial for protecting oneself and the broader community."
+VAL-25,0.7836187180394619,"If you have mpox, your healthcare provider will advise you on what to do while you recover. Follow national advice on whether you should recover at home or if you need care in a health facility.In the meantime, it is important to avoid having close contact with others until your lesions have completely healed.If you are advised to isolate at home, protect those you live with as much as possible by:asking friends and family to help you by delivering things you need;isolating in a separate room;using a separate bathroom, or cleaning any surfaces you touched after each use;cleaning and disinfecting frequently touched surfaces with soap and water and a household disinfectant;avoiding sweeping/vacuuming (this might disturb virus particles and cause others to become infected);using separate utensils, objects, electronics, or clean well with soap and water/disinfectant before sharing;not sharing towels, bedding or clothes;doing your own laundry (lift bedding, clothes and towels carefully without shaking them, put materials in a plastic bag before carrying it to the washing machine and wash them with hot water over 60 degrees Celsius);opening windows for good ventilation; andencouraging everyone in the house to clean their hands regularly with soap and water or an alcohol-based hand sanitizer.If you cannot avoid being in the same room as someone else or having close contact with another person while isolating at home, then do your best to limit their risk by:avoiding touching each other;cleaning your hands often with soap and water or an alcohol-based hand sanitizer;covering your rash with clothing or bandages (until you can isolate again – your rash will heal best if uncovered);opening windows throughout the home;ensuring you and anyone in the room with you wear well-fitting medical masks; andmaintaining at least 1 metre of distance from others.If you cannot do your own laundry and someone else needs to do it for you, they should wear a well-fitting medical mask, disposable gloves and take the laundry precautions listed above.","If you have been diagnosed with mpox (formerly known as monkeypox), it's essential to take steps to protect others from infection. Here are the key recommendations:
+
+1. **Isolate Yourself**: Stay at home and avoid close contact with others, including sexual partners, until you have been evaluated by a healthcare provider and your symptoms have resolved.
+
+2. **Avoid Close Contact**: Refrain from any activities that involve touching, kissing, or sexual contact. Mpox can spread through direct skin-to-skin contact and sexual activity.
+
+3. **Sanitize and Disinfect**: Regularly clean and disinfect shared surfaces and personal items such as clothing, bedding, towels, and any items that may have come into contact with you. Use detergents and cleaning products that are effective against viruses.
+
+4. **Communicate Openly**: Have non-judgmental conversations with close contacts about your diagnosis and any potential symptoms they should monitor for. This includes sexual partners, who may need to take precautions as well.
+
+5. **Monitor Symptoms**: Be vigilant for any symptoms of mpox, such as rash, fever, swollen lymph nodes, and body aches. Seek health advice immediately if you exhibit symptoms.
+
+6. **Vaccination**: If an mpox vaccine is available to you, consider getting vaccinated to reduce your risk of severe illness and further transmission.
+
+7. **Seek Medical Advice**: Contact a healthcare provider for guidance, testing, and any required treatment if you show signs of mpox or have been in close contact with someone who has it.
+
+8. **Hygiene Practices**: Maintain good hygiene practices by washing your hands frequently with soap and water or using an alcohol-based hand sanitizer, especially after handling items that may be contaminated.
+
+9. **Educate Yourself and Others**: Stay informed about mpox and share reliable information to help reduce stigma and misinformation within your community.
+
+By following these guidelines, you can help protect others while managing your health. For further detailed information about mpox and its transmission, I recommend visiting reputable health sources such as the Centers for Disease Control and Prevention (CDC) at [CDC Mpox Information](https://www.cdc.gov/poxvirus/mpox/index.html) or the World Health Organization (WHO) at [WHO Mpox Factsheet](https://www.who.int/news-room/fact-sheets/detail/monkeypox)."
+VAL-26,0.8251401864201509,"The care someone needs will depend on their symptoms and their risk of developing more severe disease. People with mpox should follow the advice of their health care provider. Symptoms typically last 2–4 weeks and usually go away on their own or with supportive care, such as medication for pain or fever (such as analgesics and antipyretics).It is important for anyone with mpox who is recovering at home to stay hydrated, eat well and get enough sleep. People who are self-isolating should take care of their mental health by doing things they find relaxing and enjoyable, staying connected to loved ones using technology, exercising if they feel well enough and can do so while isolating, and asking for support with their mental health if they need it.People with mpox should avoid scratching their skin and take care of their rash by cleaning their hands before and after touching lesions and keeping skin dry and uncovered (unless they are unavoidably in a room with someone else, in which case they should cover it with clothing or a bandage until they are able to isolate again). The rash can be kept clean with sterilized water or antiseptic. Saltwater rinses can be used for sores in the mouth, and warm baths with baking soda and Epsom salts can ease the discomfort of sores on the body. Paracetamol can be used to help manage the pain caused by lesions, if needed. If stronger pain medicine is needed, advice should be sought from a health care provider.See this infographic on recovering from mpox at home for some helpful tips.","To fully recover from mpox (formerly known as monkeypox), individuals should:
+
+1. **Isolate at Home**: Stay at home and ideally in a well-ventilated room to prevent spreading the virus to others. Isolation should continue until all lesions have healed and new skin has formed underneath.
+
+2. **Consult Healthcare Providers**: Reach out to healthcare professionals for guidance on care and monitoring for symptoms that may worsen.
+
+3. **Maintain Hygiene**: Wash hands frequently with soap and water or use hand sanitizer, especially after touching sores. Avoid touching shared items and disinfect common spaces often.
+
+4. **Manage Symptoms**:
+   - **Rest and Hydration**: Keep well-hydrated and get adequate rest.
+   - **Pain Relief**: Use over-the-counter medications like paracetamol (acetaminophen) or ibuprofen for pain management.
+   - **Skin Care**: Keep the skin dry and uncovered when possible. Avoid popping blisters and scratching sores to minimize the risk of infection and scarring. Use of saltwater rinses for oral lesions and warm baths with Epsom salts can help manage discomfort.
+
+5. **Cover Lesions and Wear a Mask**: Cover any lesions and wear a well-fitting mask when around others until healing is complete.
+
+6. **Monitor for Complications**: Be aware of worsening symptoms such as increased pain, fever, or signs of infection (e.g., redness, pus).
+
+7. **Avoid Close Contact**: Steer clear of intimate contact, including sexual activities, especially with new partners during recovery and for a period post-recovery (12 weeks has been suggested) to minimize transmission risk.
+
+8. **Seek Support for Living with HIV**: For individuals immunocompromised, especially those living with HIV, continuing antiretroviral therapy is crucial.
+
+Most individuals with mpox will recover within 2-4 weeks, although the duration may vary based on health conditions and immune status. In severe cases or for those at high-risk, antiviral treatments may be introduced based on clinical judgment.
+
+For further detailed guidance, you can refer to official resources such as the CDC and WHO:
+- CDC: https://www.cdc.gov/poxvirus/mpox/symptoms/index.html
+- WHO: https://www.who.int/news-room/fact-sheets/detail/monkeypox
+
+These resources provide comprehensive information regarding mpox care, treatment options, transmission, and public health recommendations."
+VAL-27,0.7787322571262867,"When there is stigma or discrimination related to a medical condition, people may not seek care quickly, the quality of health care may suffer, and access to health services for the most vulnerable is reduced.It is possible to prevent or reduce stigma and discrimination related to mpox through strategies to offer stigma-free care, employ non-stigmatizing language, support people in seeking health care and create an enabling environment where the best quality of care is available.Read more here on how to address stigma and discrimination related to mpox.","Stigma related to mpox (formerly known as monkeypox) is a significant concern for several reasons. Firstly, stigma can impede public health efforts and prolong outbreaks by discouraging individuals from seeking care and treatment. When people fear judgment or discrimination, they may avoid disclosing symptoms or seeking medical attention, which can hinder effective contact tracing and treatment, thereby allowing the virus to spread further.
+
+Particularly, stigma has been pronounced in communities initially most affected by the outbreak, such as men who have sex with men, transgender individuals, and gender-diverse communities. This intersection of stigma with existing societal prejudices—such as those based on race, ethnicity, or sexual orientation—exacerbates the challenges faced by these groups, leading to a compounded effect of discrimination.
+
+Additionally, stigma does not only harm those directly infected but also affects caregivers, families, and friends. Stigmatizing attitudes can result in social isolation, mental health issues, and additional health disparities. Furthermore, health workers might also experience stigma due to their association with affected populations, which could decrease their willingness to engage in essential public health practices.
+
+To address these issues, it is crucial to focus communications on the activities fueling the outbreak rather than on the people affected. Stigma can be reduced through education, promoting accurate information about the virus's transmission—which occurs through close contact, not through specific behaviors or identities—and fostering an inclusive environment that respects confidentiality and individual privacy.
+
+Ultimately, addressing stigma related to mpox is essential not only for protecting affected individuals but also for enhancing community health and effectively controlling the outbreak.
+
+For further information, see the World Health Organization's guidelines on this topic: 
+- Source: WHO - Understanding, preventing, and addressing stigma and discrimination related to mpox [link](https://www.who.int/publications/i/item/WHO-MPX-Discrimination)."
+VAL-28,0.8079016489106332,"Children can catch mpox if they have close contact with someone who has symptoms. Children can be exposed to the virus at home from siblings, parents, caregivers, or other family members through close contact. In some settings in Africa, children and adolescents may be exposed through hunting or trapping activities or consumption of insufficiently cooked meat. Adolescents who have engaged in sexual activity with someone with mpox can also be exposed. The mpox rash can at first resemble other common childhood illnesses, such as chickenpox and other viral infections. If a child you are caring for has symptoms that could be mpox, seek advice from a healthcare provider. They will help to get them tested, and to access the care they need.Children may be at greater risk of severe mpox than adults. They should be closely monitored until they have recovered in case they need additional care. A health worker responsible for the child may advise that they are cared for in a health facility. In this situation, a parent or caregiver who is healthy and at low risk of mpox will be allowed to stay with them.If you have confirmed or suspected mpox and you are breastfeeding, talk to your healthcare provider for advice. They will assess the risk of transmitting mpox as well as the risk of withholding breastfeeding from your infant. If it is possible for you to continue to breastfeed and have close contact, they will advise you on how to reduce the risk by taking other measures, including covering up lesions. The risk of infection will need to be carefully balanced with the potential harm and distress caused by interrupting breastfeeding and close contact between parent and child. It is not yet known whether the monkeypox virus can be spread from parent to child through breastmilk; this is an area in need of further study.","If a child in your care has mpox (previously known as monkeypox), it's essential to follow strict infection control procedures to prevent spreading the virus and ensure the child's safety and comfort. Here's a step-by-step approach based on current guidelines:
+
+1. **Isolation**: Keep the child isolated from others, including family members and pets, until the rash has healed, scabs have fallen off, and a fresh layer of intact skin has formed. This is crucial in preventing transmission.
+
+2. **Infection Control in the Home**:
+   - Ensure that no uninfected individuals, particularly those who are pregnant or immunocompromised, come into close contact with the infected child.
+   - The infected child should wear a well-fitting mask (if over 2 years old) when interacting with caregivers or any household members, especially when these caregivers need to tend to the child.
+   - All lesions should be covered to reduce the risk of transmission.
+
+3. **Caregivers' Precautions**:
+   - Limit the number of caregivers to one if possible to reduce the risk of transmission.
+   - Caregivers should wear gloves while changing bandages or clothing covering the child’s rash and wash their hands frequently.
+   - Avoid direct skin-to-skin contact with the rash.
+
+4. **Monitor Symptoms**: Keep a close watch for any changes in the child's condition. This includes watching for fever, new spots or lesions, or any signs of infection (redness, pus). If the child's condition worsens, seek medical advice immediately.
+
+5. **Personal Hygiene**: Encourage handwashing with soap and water or the use of hand sanitizer, especially before and after touching the child's lesions. Clean and disinfect shared spaces frequently to minimize the risk of transmitting mpox to others.
+
+6. **Post-exposure Prophylaxis (PEP)**: If caregivers or other children in the household have been exposed to mpox, consider discussing with healthcare providers about the possibility of PEP, which may include vaccination with JYNNEOS.
+
+7. **Healthcare Provider Contact**: Regularly check in with healthcare professionals for updates on the child's condition and to coordinate care. They can provide guidance on symptom management and any necessary treatments.
+
+8. **Avoid Contact with Contaminated Items**: Ensure that the infected child does not share bedding, towels, cups, or utensils with others in the home.
+
+9. **Supportive Care**: Most children recover from mpox within 2–4 weeks. Supportive care such as pain relief (e.g., paracetamol or ibuprofen) and soothing baths can be beneficial.
+
+10. **Education**: Inform other caregivers or family members about the nature of mpox and necessary precautions to take while caring for the child. 
+
+For more information, refer to the CDC guidelines on Mpox infection prevention and control: [CDC Mpox Infection Prevention and Control](https://www.cdc.gov/poxvirus/mpox/clinicians/infection-control.html). 
+
+Always consult with healthcare professionals for specific medical advice related to the situation at hand."
+VAL-29,0.7663330742632332,"Many years of research on therapeutics for smallpox have led to the development of products that may also be useful for treating mpox. For example, an antiviral developed to treat smallpox (tecovirimat) was approved in January 2022 by the European Medicines Agency for the treatment of mpox under exceptional circumstances. Experience with these therapeutics in the context of an outbreak of mpox is growing but still limited. For this reason, their use is usually accompanied by enrolment in a clinical trial or expanded access protocol accompanied by the collection of information that will improve knowledge on how best to use them in future.","There is currently no specific antiviral treatment approved for mpox (monkeypox), and management primarily focuses on supportive care to alleviate symptoms, manage pain, and prevent complications. Most individuals with mpox tend to recover without specific medical treatment in a period ranging from 2 to 4 weeks. Here are some key points regarding treatment and prevention:
+
+1. **Supportive Care**: Treatment typically involves supportive measures such as pain management, skin care, hydration, and nutrition. Individuals should avoid activities that may lead to transmission until they have fully recovered (until lesions have scabbed over and new skin has formed).
+
+2. **Antivirals**: Antivirals like tecovirimat (TPOXX) and cidofovir may be considered for individuals with severe disease or those at high risk for severe complications, such as immunocompromised patients. Administration is based on individual assessments as pregnancy or certain comorbidities may impact treatment strategies.
+
+3. **Vaccination**: Vaccination against mpox can be administered pre-exposure to individuals at high risk (for example, health care workers or people in close contact with infected individuals) as well as post-exposure if given within four days of exposure to someone with mpox.
+
+4. **Preventive Measures**: Infected individuals are advised to isolate at home to prevent the virus from spreading to others, cover lesions, and wear masks during their infectious period.
+
+5. **Research and Recommendations**: Ongoing research is evaluating the efficacy of existing antiviral drugs for mpox, and health guidelines may evolve as new evidence emerges.
+
+For comprehensive guidance and the latest updates, please refer to the CDC's official information on mpox, which can be accessed at the following links:
+- [CDC Mpox Information](https://www.cdc.gov/poxvirus/mpox/index.html)
+- [CDC Health Alert Network](https://emergency.cdc.gov/han/)
+
+Generally, mpox tends to result in mild illness for those who are immunocompetent, and supportive care is usually sufficient for recovery."
+VAL-30,0.8513065332704851,"Persons with immune suppression are at higher risk of developing severe mpox or dying. Severe mpox can include larger, more widespread lesions (especially in the mouth, eyes and genitals), conditions such as inflammation of the heart, brain or other organs, or secondary bacterial infections of the skin or blood and lung infections.People with advanced HIV disease (late presentation, low CD4 count and high HIV viral load) have an elevated risk of death if they develop severe mpox. This is more common in people with HIV status unknown prior to a diagnosis of mpox.People living with HIV who achieve viral suppression through antiretroviral treatment do not appear to be at any higher risk of severe mpox than the general population. Use of daily effective HIV treatment (antiretrovirals or ARVs) reduces the risk of developing severe mpox symptoms in the case of infection. People with untreated HIV and advanced HIV disease may be immunocompromised and therefore be at greater risk of severe mpox. WHO advises countries to integrate HIV and mpox testing, prevention and care.People who are sexually active and who do not know their HIV status are advised to seek a test for HIV. People living with HIV on effective treatment have the same life expectancy as their HIV negative peers.Severe mpox cases seen in some countries highlight the urgent need to increase equitable access to mpox diagnostic tests, vaccines and therapeutics, and to HIV prevention, testing and treatment. Without this, most affected groups are being left without the tools they need to protect their sexual health and well-being.If you are living with HIV, continue to take your HIV medication as directed. If you think you may have mpox, seek medical advice.If you think you are at risk for mpox or have been diagnosed with mpox, you may benefit from testing for sexually transmitted infections (STIs). If you don’t know your HIV status, ask your health worker for an HIV test. This will help your health care provider to ensure you receive the best possible care. In 2023 there were 9 million people in the world living with HIV but not on HIV treatment and who could be at risk for advanced HIV disease – 5 million of whom were living in Africa.","Yes, individuals who are immunosuppressed, including those living with advanced HIV, are at a higher risk of developing severe manifestations of mpox (formerly known as monkeypox). Immunosuppression impairs the immune system's ability to effectively combat infections, which can lead to more severe clinical presentations of diseases like mpox.
+
+Specifically, patients with significantly low CD4 T lymphocyte counts (e.g., CD4 < 200 cells/mm³, especially < 50 cells/mm³) have been documented to experience more severe infections, including hospitalization and disseminated disease. A 2017-18 case series from Nigeria reported that among patients who died from mpox, several had untreated advanced HIV. Furthermore, individuals with HIV may present with atypical or more severe symptoms, such as prolonged illness, secondary bacterial infections, and confluent rashes, which complicate management.
+
+In summary, while many patients with well-controlled HIV can recover from mpox with supportive care, those with advanced HIV or significant immunosuppression are at increased risk for severe disease and complications. Antiretroviral therapy (ART) should be initiated promptly in such cases, as it can improve immune function.
+
+For more detailed information, refer to:
+1. Centers for Disease Control and Prevention. (CDC). ""Severe Mpox in Hospitalized Patients—United States, August 10–October 10, 2022"". [CDC MMWR](https://www.cdc.gov/mmwr/volumes/71/wr/pdfs/mm7141e2-H.pdf).
+2. Health Alert Network (HAN) 00475: Severe Manifestations of Mpox among People who are Immunocompromised Due to HIV or Other Conditions. [CDC HAN](https://emergency.cdc.gov/han/2022/han00475.asp)."
+VAL-31,0.8131826390839862,"Yes, there are vaccines recommended by WHO for use against mpox. Many years of research led to the development of newer and safer vaccines for smallpox (which no longer exists as it was eradicated) and mpox. At present, WHO recommends use of MVA-BN or LC16 vaccines for people at risk during an outbreak of mpox. ACAM2000 may also be used for certain people based on an individual assessment when other vaccines are not available.","Yes, there are vaccines available that provide protection against mpox (formerly known as monkeypox). While there is no vaccine specifically licensed for mpox in the UK or Europe, the Smallpox Modified Vaccinia Ankara - Bavarian Nordic (MVA-BN) vaccine is currently utilized for this purpose. 
+
+1. **MVA-BN Vaccine**: 
+   - Known as **Imvanex** in the UK and European Union, it is officially approved for the prevention of smallpox but has been employed to prevent mpox during outbreaks.
+   - In the United States, the MVA-BN vaccine is marketed as **Jynneos** and is specifically approved for the prevention of both mpox and smallpox.
+
+2. **Vaccination Recommendations**:
+   - Vaccination is recommended for individuals at high risk of exposure, particularly during active outbreaks. These groups include healthcare workers, close contacts of confirmed cases, and individuals with multiple sexual partners.
+   - The vaccine can also be administered as post-exposure prophylaxis within 4 to 14 days after contact with a confirmed case.
+
+3. **Efficacy**: 
+   - Evidence suggests that the MVA-BN vaccine can elicit an immune response within two weeks of the first dose, potentially reducing the severity of disease even if given after exposure. 
+
+4. **Current Status**: 
+   - Vaccination efforts are essential as mpox cases continue to rise, particularly in regions like the Democratic Republic of the Congo and other areas where the disease is endemic.
+
+For more detailed information, you can refer to resources from the World Health Organization (WHO) and the U.S. Centers for Disease Control and Prevention (CDC):
+
+- WHO Information: [WHO Mpox Vaccination Information](https://www.who.int/news-room/questions-and-answers/item/mpox-vaccination)
+- CDC Information: [CDC Mpox Vaccine Guidance](https://www.cdc.gov/poxvirus/mpox/vaccine.html)"
+VAL-32,0.8521643604348065,"Mpox vaccines provide protection against infection and severe disease. You should speak with your healthcare provider about whether you should get vaccinated. This will depend on your individual risk as well as the availability of vaccines in your area. WHO recommends vaccination for people at high risk of exposure to mpox during an outbreak, such as health workers or people who have been in contact with someone with mpox. During outbreaks, WHO also recommends vaccination for children at high risk of exposure.Travellers who may be at risk, based on an individual risk assessment with their healthcare provider, may wish to consider vaccination.Whether vaccinated or not, continue to take care to avoid catching and spreading mpox. This is because it takes several weeks to develop immunity after being vaccinated and because a few people may not fully respond to vaccination. For those who acquire mpox after vaccination, the vaccine still protects against severe disease and hospitalization.","Whether you should get vaccinated for mpox (formerly known as monkeypox) largely depends on your risk factors and current public health guidance.
+
+1. **Risk Assessment**: Vaccination is recommended for individuals at high risk of exposure to the mpox virus, especially during outbreaks. High-risk groups typically include healthcare workers, individuals in the same household or community as someone infected, and individuals with multiple sexual partners (including men who have sex with men).
+
+2. **Vaccine Availability**: Currently, the JYNNEOS vaccine is available and approved for preventing mpox and smallpox in the United States. It is administered as a series of two doses, typically 28 days apart. In the UK, the Modified Vaccinia Ankara - Bavarian Nordic (MVA-BN), which also provides some cross-protection, can be used in response to mpox outbreaks, despite not being specifically licensed for mpox prevention.
+
+3. **Post-Exposure Vaccination**: If you have been exposed to the mpox virus, vaccination may also be offered as post-exposure prophylaxis (PEP) to help prevent infection. In this case, the vaccine should ideally be administered within 4 days of exposure, although it may still provide benefit if given within 14 days.
+
+4. **Consult Healthcare Providers**: It is crucial to discuss your individual circumstances with a healthcare provider, who can offer personalized advice based on your health status, potential exposure risk, and local public health recommendations.
+
+For further information, the Centers for Disease Control and Prevention (CDC) provides detailed guidelines on vaccination for mpox, which can be accessed at their website: [CDC Mpox Vaccination Guidance](https://www.cdc.gov/poxvirus/mpox/vaccine.html). Additionally, information on the MVA-BN vaccine can be found at the UK Health Security Agency website."
+VAL-33,0.7734183807714027,"Contracting mpox during pregnancy (which is considered a relative immunosuppressed state) can be dangerous for the fetus or newborn infant and can lead to loss of the pregnancy, stillbirth, death of the newborn, or complications for the parent. If you are pregnant, avoid close contact with anyone who has mpox. Anyone who has close contact with someone who is infectious can get mpox, regardless of who they are. If you think you have been exposed to or are showing symptoms that could be mpox, contact your healthcare provider. They will help you get tested and access the care you need.","The risks of mpox (previously known as monkeypox) during pregnancy include several potential adverse outcomes for both the pregnant individual and the fetus. The data on mpox infection in pregnancy is still limited, but key points are as follows:
+
+1. **Infection Transmission**: Mpox can be transmitted to the fetus during pregnancy or to the newborn during close contact during and after birth. 
+
+2. **Adverse Pregnancy Outcomes**: There have been reports of adverse outcomes such as spontaneous pregnancy loss, stillbirth, preterm delivery, and neonatal mpox. However, the frequency and specific risk factors for these outcomes are not well defined.
+
+3. **Severity of Disease**: While it is unclear if pregnant individuals have a higher susceptibility to mpox or if the disease is more severe in pregnancy, there is a probable increased risk for severe disease and complications compared to non-pregnant individuals.
+
+4. **Symptomatology**: The clinical presentation of mpox in pregnant individuals appears similar to that in non-pregnant individuals, displaying symptoms such as fever, headache, and rash. However, the differential diagnosis of fever during pregnancy can be challenging as it may overlap with other conditions like intra-amniotic infections.
+
+5. **Co-infections**: Pregnant individuals with mpox may also be at risk for co-infections, including sexually transmitted infections, which can complicate the diagnosis.
+
+6. **Treatment Considerations**: Pregnant, recently pregnant, or breastfeeding individuals should be prioritized for medical treatment if needed. The antiviral drug tecovirimat is considered the first-line treatment for these populations after consulting health authorities.
+
+Additional monitoring and care practices are essential for pregnant individuals diagnosed with mpox to prevent complications and manage any adverse outcomes for both the mother and the newborn.
+
+For more detailed information, you can refer to the CDC resources on mpox:
+- CDC: Mpox in Pregnancy [Link](https://www.cdc.gov/poxvirus/mpox/clinical-symptoms.html)
+- CDC: Infection Control Practices for mpox [Link](https://www.cdc.gov/poxvirus/mpox/hcp/infection-control.html)
+
+Overall, close monitoring and individualized care planning are crucial for managing mpox in pregnant individuals."
+VAL-34,0.844607686894978,"Anyone attending a gathering is at risk of contracting mpox if they come into close contact with someone with mpox. Mpox can spread through skin-to-skin, mouth-to-mouth, or mouth-to-skin contact (such as kissing), and by being face-to-face with someone who has mpox (such as talking or breathing close to one another, which can generate infectious respiratory particles). Mpox can also spread through contact with contaminated materials or objects such as sheets or needles. Crowded gatherings where people are close together, or where people spend an extended time together in a closed space, carry more risk.To reduce the risk of transmission at gatherings, avoid close contact, including sexual contact, with anyone showing symptoms of mpox. If you develop symptoms isolate yourself, ensuring you avoid any close contact with others, and seek professional medical advice. Consider vaccination if you are at high risk of exposure, based on a healthcare provider's recommendation.","Yes, you can get mpox (monkeypox) during social events, parties, or other gatherings, especially if there is close contact with individuals who are infected or showing symptoms. The transmission typically occurs through direct skin-to-skin contact, which includes behaviors such as touching, kissing, and sexual activities. Additionally, mpox can also spread via contaminated objects or surfaces in those settings.
+
+To reduce your risk of mpox, consider the following strategies:
+
+1. **Know the Symptoms**: Regularly check yourself for symptoms associated with mpox, such as unusual rashes or sores. If you notice any symptoms, avoid close contact with others until you've consulted a healthcare provider. 
+
+2. **Avoid Close Contact**: Steer clear of individuals who have confirmed or suspected mpox. This includes avoiding kissing, hugging, or sexual interactions with anyone presenting symptoms.
+
+3. **Maintain Open Communication**: Have candid conversations with close contacts about mpox. If you're comfortable, share contact details to notify each other if symptoms develop post-interaction.
+
+4. **Practice Good Hygiene**: Regularly clean your hands with soap and water or an alcohol-based hand sanitizer. Clean shared items like clothing, bedding, and surfaces frequently, especially between uses.
+
+5. **Limit Number of Partners**: Consider reducing the number of sexual partners you engage with to decrease your exposure risk.
+
+6. **Vaccination**: If available, get vaccinated against mpox. Vaccination can provide an additional layer of protection.
+
+7. **Stay Informed**: Keep up to date with the latest information about mpox outbreaks in your area to understand the risk level.
+
+For detailed information from authoritative sources, you can refer to the World Health Organization (WHO) guidelines on mpox and gatherings: [WHO Mpox Guidance](https://www.who.int/publications/i/item/WHO-MPX-Gatherings-2022.1).
+
+By following these measures, you can significantly lower your risk of contracting mpox while participating in social events."
+VAL-35,0.7694169367685781,"Our understanding of how long immunity following mpox lasts continues to evolve. There have been some cases of second infections reported. A few people may get mpox despite having had it before. Even if you have had mpox in the past, you should be doing everything you can to avoid getting re-infected. If you have had mpox in the past and someone in your household has it now, you can protect others by being the designated caregiver, as you are more likely to have some immunity than others. However, you should still take all precautions to avoid exposure as far as possible.","Yes, it is possible to catch mpox (previously known as monkeypox) again after having had it in the past. While individuals who have recovered from mpox generally develop some level of immunity to the virus, this immunity may not be lifelong or complete. Cases of reinfection, although not common, have been reported. 
+
+The mpox virus can spread primarily through close contact with someone exhibiting symptoms, such as direct skin-to-skin contact, including sexual activities, as well as contact with contaminated items like clothing or linens. Reinfection risk increases if a person is exposed to someone who is infected again, particularly in environments where close contact occurs.
+
+For further information regarding mpox and reinfection risks, you can refer to resources such as the UK Health Security Agency and other medical literature. 
+
+**Sources:**
+- UK Health Security Agency (UKHSA) - Information on mpox: [UKHSA mpox Guidance](https://www.gov.uk/government/collections/mpox-monkeypox)
+- Centers for Disease Control and Prevention (CDC) - Mpox Overview: [CDC's Mpox Page](https://www.cdc.gov/poxvirus/mpox/index.html)"
+VAL-36,0.832919462950923,"There are two broad clades of the virus: clade I and II. Clade II was behind the global mpox outbreak that began in 2022.The current understanding is that clade I leads to more severe disease and death than clade II in the populations where it is endemic. However, differences in the features of past outbreaks such as population groups affected make it hard to draw a firm conclusion. Public health advice from WHO applies for prevention and management of mpox arising from either clade.A new offshoot of clade I virus, called clade Ib, was first reported in the Democratic Republic of the Congo in 2023, and has been spreading through sex and other types of close contact. Studies are underway to understand the properties of this new strain.","The monkeypox virus (MPXV) is divided into two main genetic groups, referred to as Clade I and Clade II. These clades have distinct characteristics regarding their impact on public health.
+
+### Clades and Their Impact:
+
+1. **Clade I**:
+   - **Definition**: Originally known as the Central African or Congo Basin clade, it has historically been associated with more severe disease.
+   - **Transmissibility**: Clade I MPXV can spread through both animal-to-human and human-to-human contact. There are reports of sustained sexual transmission in regions like the Democratic Republic of Congo.
+   - **Geographical Spread**: While traditionally confined to several Central African countries, cases have now been reported in regions beyond its usual geographical range, potentially indicating an increased risk of wider spread.
+   - **Clinical Severity**: Historically thought to cause more severe mpox disease than Clade II, Clade I remains classified as a High Consequence Infectious Disease (HCID).
+   - **Subclades**: Clade I is further divided into subclades Ia and Ib.
+
+2. **Clade II**:
+   - **Definition**: Known as the West African clade, Clade II tends to result in less severe disease.
+   - **Subclades**: Clade II has two subdivisions, IIa and IIb. Clade IIb is particularly significant as it has been the predominant strain involved in the global outbreak that began in 2022.
+   - **Clinical Severity**: In the UK and globally, Clade II is no longer classified as an HCID as of 2023, indicating a less critical public health threat compared to Clade I.
+   - **Epidemiological Trends**: Since May 2022, Clade IIb has predominantly affected men who have sex with men, but cases have also emerged among the general population.
+
+### Conclusion:
+Understanding the differences between these clades is crucial for public health surveillance and response. Clade I remains a greater concern due to its severity and potential for broader geographical spread, while Clade II has been associated with a more controlled outbreak.
+
+For further acknowledgment of the epidemiological context, refer to the World Health Organization's guidelines and updates on MPXV: [WHO Mpox Information](https://www.who.int/en/news-room/fact-sheets/detail/monkeypox) (last accessed in October 2023)."

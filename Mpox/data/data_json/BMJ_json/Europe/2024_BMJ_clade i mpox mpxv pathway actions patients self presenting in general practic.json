@@ -1,0 +1,23 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "Does the patient have clinical signs and symptoms of being a suspected case?",
+                "page_content0": "A prodrome where there is known prior contact with a confirmed or suspected mpox case in the last 21 days before symptom onset, or\nAn mpox compatible rash anywhere on the skin, mucosae or symptoms of proctitis and at least one of the following in the 21 days before symptom onset –\nRecent new sexual partner\nContact with known or suspected case of mpox\nA travel history to a country where mpox is currently common\nLink to infected animal or meat\n(N.B. If a rash is highly suggestive of mpox, but a risk factor cannot be identified liaise with local infection specialist/microbiologist as to whether to consider mpox testing alongside the more common differential diagnosis)\n\nIf yes, there are clinical signs:\nIsolate the patient in a treatment room with access to a phone and undertake a clinical assessment of the patient.\n\nWhere appropriate PPE is available this can be done in person, where appropriate PPE is not available this should be done virtually\n\nWhere suspected cases present in primary care, general practitioners should isolate the patient in a single room and contact their local infection service for advice, including immediate precautions in the setting – clinical staff should wear face fit tested FFP3 masks, eye protection, long-sleeved splash resistant gowns and gloves to provide care if immediately required.\n\nContact your local infection specialist for advice. Do not test for mpox in community settings.\n\nIf there are no clinical signs:\n\nConsider alternative diagnosis, seeking advice as required as part of normal clinical pathways\nLiaise with local infection specialists/microbiology if clinical suspicion remains to agree next steps – including assessment for conditions such as malaria which could also cause illness in a returning traveller."            },
+            {
+                "metadata": "Pathway checklist",
+                "page_content": "HCP referral Clade I mpox pathway checklist – probable or possible cases:\n\nHave you isolated the patient?\nHave you assessed the patient’s ability to self-transfer?\nHave you confirmed transfer/arrival arrangements with the receiving department?\nHave you confirmed arrangements with the patient, including a phone number to contact upon arrival?\nSeek advice from local infection prevention and control as required (including cleaning)."            },
+            {
+                "metadata": "Links and guidance",
+                "page_content": "UKHSA public health messaging for NHS service providers\nMpox: guidance on when to suspect a case of mpox\nClade 1 mpox – affected countries list\nNational infection prevention and control manual (NIPCM)\nAddendum on high consequence infectious disease (HCID) PPE"
+            },
+            {
+                "metadata": "Preparedness actions",
+                "page_content": "Providers to ensure that all clinical services are aware of the public health messaging and that a differential diagnosis of Clade I mpox should be considered in any patient that meets the operational case definition.\nProviders should review current infection prevention and control (IPC) plans, PPE availability, waste management and staff training to ensure that arrangements are in place to safely assess and treat patients presenting with suspected mpox – this should include identifying a suitable room and access and egress arrangements.\nProviders should review existing plans and clinical pathways ensuring that staff are aware of the arrangements for isolation, clinical management, specialist infection advice, PPE and associated infection control measures.\nDate published: 5 September, 2024\nDate last updated: 25 October, 2024"
+            }
+        ]
+    },
+    "time": "2024_10_25",
+    "source": "BMJ:clade-i-mpox-mpxv-pathway-actions-patients-self-presenting-in-general-practic",
+    "link": "https://www.england.nhs.uk/long-read/clade-i-mpox-mpxv-pathway-actions-patients-self-presenting-in-general-practice"
+}

@@ -1,0 +1,33 @@
+{
+    "content": {
+        "Document": [
+            {
+                "metadata": "Patient has been identified as a possible or probable case of mpox by a health care professional (HCP)",
+                "page_content": "HCP should contact ED to agree arrangements for transfer (e.g. likely time of arrival, arrival point, what to do on arrival, including phone number to notify of arrival). \nActions if clinically unwell\nAssessment indicates patient is clinically unwell and should be transported by ambulance, or is unable to self-transfer whilst maintaining isolation.\nHCP to contact regional ambulance service to arrange transfer, clearly stating the patient is a suspected Mpox case.\nPatient to be managed as per local pathways and in line with suspected mpox pathway for patients self-presenting at emergency departments\n \nActions if clinically stable\nAssessment indicates patient is clinically stable and can transport themselves to attend ED via their own transport, whilst maintaining isolation.\nConfirm with patient arrangements for transfer:\n\nmaintain isolation\nwhere to present\nwho to contact upon arrival\n\nPatient to be managed as per local pathways and in line with suspected mpox pathway for patients self-presenting at emergency departments\n"
+            },
+            {
+                "metadata": " ",
+                "page_content": "Assessment indicates patient is clinically unwell and should be transported by ambulance, or is unable to self-transfer whilst maintaining isolation. HCP to contact regional ambulance service to arrange transfer, clearly stating the patient is a suspected Mpox case. Patient to be managed as per local pathways and in line with suspected mpox pathway for patients self-presenting at emergency departments"
+            },
+            {
+                "metadata": "including designated medical contacts for returning workers.",
+                "page_content": "Assessment indicates patient is clinically stable and can transport themselves to attend ED via their own transport, whilst maintaining isolation. Confirm with patient arrangements for transfer: \nmaintain isolation\nwhere to present\nwho to contact upon arrival\n Patient to be managed as per local pathways and in line with suspected mpox pathway for patients self-presenting at emergency departments"
+            },
+            {
+                "metadata": "Pathway checklist",
+                "page_content": "Patients referred to ED Clade I mpox pathway checklist â probable or possible cases: \nHave you isolated the patient?\n\n\n\nHave you assessed the patientâs ability to self-transfer?\n\n\n\nHave you confirmed transfer/arrival arrangements with the receiving department?\n\n\n\nHave you confirmed arrangements with the patient, including a phone number to contact upon arrival?\n"
+            },
+            {
+                "metadata": "Links and guidance",
+                "page_content": "\nMpox: guidance on when to suspect a case of mpox\n\n\n\nClade 1 mpox – affected countries list\n\n\n\nNational infection prevention and control manual (NIPCM)\n\n\n\nAddendum on high consequence infectious disease (HCID) personal protective equipment (PPE)\n"
+            },
+            {
+                "metadata": "Preparedness actions",
+                "page_content": "\nProviders to ensure that all clinical services are aware of the public health messaging and that a differential diagnosis of Mpox should be considered in any patient that meets the operational case definition.\n\n\n\nProviders should review current IPC plans, PPE availability, waste management and staff training to ensure that arrangements are in place to safely assess and treat patients presenting with suspected Mpox.\n\n\n\nProviders should review existing plans and clinical pathways ensuring that staff are aware of the arrangements for isolation, clinical management, specialist infection advice,  PPE and associated infection control measures.\n \n                \n                \n    \n    \n        Date published: 5 September, 2024    \n\n    \n        Date last updated: 25 October, 2024    \n\n            \n            "
+            }
+        ]
+    },
+    "time": "2024_10_25",
+    "source": "BMJ:clade-i-mpox-mpxv-pathway-actions-patients-referred-to-emergency-departments-for-clinical-assessment-and-testing",
+    "link": "https://www.england.nhs.uk/long-read/clade-i-mpox-mpxv-pathway-actions-patients-referred-to-emergency-departments-for-clinical-assessment-and-testing"
+}
