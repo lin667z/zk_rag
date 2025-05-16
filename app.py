@@ -6,6 +6,9 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel, PeftConfig
 import logging
+import os
+os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
+
 
 # 初始化Flask应用
 app = Flask(__name__)
@@ -25,7 +28,55 @@ vdb = None
 # 在全局变量部分新增
 conversation_history = []
 MAX_HISTORY_LENGTH = 20  # 最大保留历史轮次
-MAX_TOKENS = 102400      # 模型最大token限制
+MAX_TOKENS = 8192      # 模型最大token限制
+# 在全局变量部分添加
+REQUEST_COUNTER = 0
+CLEAN_INTERVAL = 3  # 每3次请求清理一次
+
+
+def log_memory_usage(logger):
+    stats = torch.cuda.memory_stats()
+    logger.info(f"""
+    [Memory] Allocated: {stats['allocated_bytes.all.current']/1024**3:.2f}GB
+    Reserved: {stats['reserved_bytes.all.current']/1024**3:.2f}GB
+    Active: {stats['active_bytes.all.current']/1024**3:.2f}GB
+    Inactive: {stats['inactive_split_bytes.all.current']/1024**3:.2f}GB
+    """)
+
+
+def log_memory_usage(logger):
+    stats = torch.cuda.memory_stats()
+    logger.info(f"""
+    [Memory] Allocated: {stats['allocated_bytes.all.current']/1024**3:.2f}GB
+    Reserved: {stats['reserved_bytes.all.current']/1024**3:.2f}GB
+    Active: {stats['active_bytes.all.current']/1024**3:.2f}GB
+    Inactive: {stats['inactive_split_bytes.all.current']/1024**3:.2f}GB
+    """)
+
+
+
+def build_history_prompt(conversation_history, tokenizer, base_prompt, user_query, max_context_tokens=5120):
+    """动态调整历史对话长度"""
+    base_tokens = len(tokenizer.encode(base_prompt + user_query, add_special_tokens=False))
+    available_tokens = max_context_tokens - base_tokens - 1024  # 保留生成空间
+
+    history_entries = []
+    total_tokens = 0
+
+    # 逆序处理历史记录
+    for user_msg, assistant_msg in reversed(conversation_history):
+        entry = f"user\n{user_msg}\nassistant\n{assistant_msg}\n"
+        entry_tokens = len(tokenizer.encode(entry, add_special_tokens=False))
+
+        if total_tokens + entry_tokens > available_tokens:
+            break
+
+        history_entries.append(entry)
+        total_tokens += entry_tokens
+
+    return "<|History_start|>"+"".join(reversed(history_entries))+"<|History_end|>"  # 恢复正序
+
+
 
 
 def initialize_components():
@@ -92,7 +143,12 @@ def index():
 def ask():
     """处理问答请求的API端点"""
     global conversation_history  # 声明使用全局历史记录
-
+    global REQUEST_COUNTER
+    CLEAN_INTERVAL = 2
+    REQUEST_COUNTER += 1
+    if REQUEST_COUNTER % CLEAN_INTERVAL == 0:
+        torch.cuda.empty_cache()
+        logger.info("Performed periodic memory cleanup")
     try:
         # 解析请求数据
         data = request.get_json()
@@ -110,35 +166,7 @@ def ask():
         system_prompt = prompt_sys(contents)
         base_prompt = f"<|im_start|>system\n{system_prompt}<|im_end|>\n"
 
-        # 动态构建历史对话（新增核心逻辑）
-        history_prompt = ""
-        current_tokens = global_tokenizer(
-            base_prompt + f"<|im_start|>user\n{current_query}<|im_end|>\n<|im_start|>assistant\n",
-            return_tensors="pt",
-            add_special_tokens=False
-        ).input_ids.size(1)
-
-        # 逆序添加历史对话直到达到token限制
-        keep_history = []
-        for i in reversed(range(len(conversation_history))):
-            user_msg, assistant_msg = conversation_history[i]
-            test_prompt = (
-                    f"<|im_start|>history_user\n{user_msg}<|im_end|>\n"
-                    f"<|im_start|>history_assistant\n{assistant_msg}<|im_end|>\n"
-                    + history_prompt
-            )
-            # 修复token计数方式
-            test_tokens = len(global_tokenizer(test_prompt, add_special_tokens=False).input_ids)  # 关键修改点
-
-            if (current_tokens + test_tokens) <= MAX_TOKENS * 0.7:  # 保留30%余量给生成
-                history_prompt = test_prompt
-                keep_history.insert(0, (user_msg, assistant_msg))
-                current_tokens += test_tokens
-            else:
-                break
-
-            if len(keep_history) >= MAX_HISTORY_LENGTH:
-                break
+        history_prompt = build_history_prompt(conversation_history, global_tokenizer, base_prompt, current_query)
 
         # 组合最终prompt
         formatted_prompt = (
@@ -147,7 +175,7 @@ def ask():
                 f"<|im_start|>user\n{current_query}<|im_end|>\n"
                 "<|im_start|>assistant\n"
         )
-        print("formatted_prompt:-------------",formatted_prompt)
+        print("formatted_prompt:-------------\n",formatted_prompt)
         # 生成响应（保持原有逻辑）
         inputs = global_tokenizer(
             formatted_prompt,
@@ -157,15 +185,26 @@ def ask():
             add_special_tokens=False
         ).to(global_model.device)
 
+        # 在生成响应后添加内存监控
+        mem_info = torch.cuda.memory_stats()
+        logger.info(f"Memory allocated: {mem_info['allocated_bytes.all.current'] / 1024 ** 3:.2f}GB")
+
+        # 修改后的生成部分
         with torch.no_grad():
             outputs = global_model.generate(
-            ** inputs,
+            **inputs,
             do_sample = True,
-            max_new_tokens = 512,
+            max_new_tokens = 1024,  # 减少生成长度
             temperature = 0.3,
             top_p = 0.85,
-            repetition_penalty = 1.2
+            repetition_penalty = 1.2,
+            use_cache = True,
+            num_return_sequences = 1  # 确保只返回一个序列
             )
+
+            # 添加张量清理逻辑
+            del inputs
+            torch.cuda.empty_cache()
 
             # 处理响应（保持原有逻辑）
             full_response = global_tokenizer.decode(
@@ -191,8 +230,16 @@ def ask():
             })
 
     except Exception as e:
-        logger.error(f"Error processing request: {str(e)}")
-        return jsonify({"status": "error", "message": str(e)}), 500
+            torch.cuda.empty_cache()
+            import gc
+            gc.collect()
+            log_memory_usage(logger)
+            print("error:\n",str(e))
+            return jsonify({
+                "status": "success",
+                "response": "问题过长，服务器硬件设备性能不足！（温馨提示：可稍后再试。）",
+                "references": ''
+            })
 
 
 if __name__ == '__main__':

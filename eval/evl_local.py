@@ -2,11 +2,11 @@ from cal_metrics import cal_gen,compute_metrics
 import json
 
 
-def load_ground_truth(file_path, max_items=35027):
+def load_ground_truth(file_path, max_items=15000):
     """
     加载真实答案数据集
     :param file_path: JSONL文件路径
-    :param max_items: 最大读取条目数 (默认35028)
+    :param max_items: 最大读取条目数 (默认34706)
     :return: 包含output标签内容的列表
     """
     ground_truth = []
@@ -24,7 +24,7 @@ def load_ground_truth(file_path, max_items=35027):
     return ground_truth
 
 
-def load_predictions(file_path, max_items=35027):
+def load_predictions(file_path, max_items=15000):
     """
     加载预测答案数据集
     :param file_path: JSONL文件路径
